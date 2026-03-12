@@ -1,0 +1,253 @@
+2026-03-12 11:53:30.284 [INFO] ▶ SCENARIO START: "Standard user logs in successfully"
+2026-03-12 11:53:30.285 [INFO]   ▷ STEP: Load credentials from credentials.json
+2026-03-12 11:53:30.286 [INFO] CustomWorld.init: launching browser for BDD scenario
+2026-03-12 11:53:31.949 [INFO] JsonHelper.read: /Users/AG125765/PlaywrightFramework/test-data/json/credentials.json
+2026-03-12 11:53:31.950 [INFO]   Loaded saucedemo credentials from credentials.json
+2026-03-12 11:53:31.950 [INFO]   ✔ STEP OK: Load credentials from credentials.json
+2026-03-12 11:53:31.951 [INFO]   ▷ STEP: Login as standardUser
+2026-03-12 11:53:31.951 [INFO]   Logging in as "standardUser" (username: standard_user)
+2026-03-12 11:53:35.757 [INFO]   Login button clicked – current URL: https://www.saucedemo.com/inventory.html
+2026-03-12 11:53:35.839 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Standard-user-logs-in-successfully-login-result-standardUser.png – Login result for "standardUser"
+2026-03-12 11:53:35.839 [INFO]   ✔ STEP OK: Login as standardUser
+2026-03-12 11:53:35.839 [INFO]   ▷ STEP: Assert inventory page
+2026-03-12 11:53:35.846 [INFO]   Inventory page confirmed – title: "Products"
+2026-03-12 11:53:35.944 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Standard-user-logs-in-successfully-inventory-page.png – Inventory page loaded
+2026-03-12 11:53:35.945 [INFO]   ✔ STEP OK: Assert inventory page
+2026-03-12 11:53:35.945 [INFO] ✔ SCENARIO PASSED: "Standard user logs in successfully"
+2026-03-12 11:53:35.945 [INFO] CustomWorld.destroy: closing browser
+2026-03-12 11:53:35.971 [INFO] ▶ SCENARIO START: "Invalid user cannot log in"
+2026-03-12 11:53:35.971 [INFO]   ▷ STEP: Load credentials from credentials.json
+2026-03-12 11:53:35.971 [INFO] CustomWorld.init: launching browser for BDD scenario
+2026-03-12 11:53:36.153 [INFO] JsonHelper.read: /Users/AG125765/PlaywrightFramework/test-data/json/credentials.json
+2026-03-12 11:53:36.153 [INFO]   Loaded saucedemo credentials from credentials.json
+2026-03-12 11:53:36.153 [INFO]   ✔ STEP OK: Load credentials from credentials.json
+2026-03-12 11:53:36.153 [INFO]   ▷ STEP: Login as invalidUser
+2026-03-12 11:53:36.153 [INFO]   Logging in as "invalidUser" (username: invalid_user)
+2026-03-12 11:53:39.680 [INFO]   Login button clicked – current URL: https://www.saucedemo.com/
+2026-03-12 11:53:39.718 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Invalid-user-cannot-log-in-login-result-invalidUser.png – Login result for "invalidUser"
+2026-03-12 11:53:39.718 [INFO]   ✔ STEP OK: Login as invalidUser
+2026-03-12 11:53:39.718 [INFO]   ▷ STEP: Assert login error message
+2026-03-12 11:53:39.723 [INFO]   Login error message: "Epic sadface: Username and password do not match any user in this service"
+2026-03-12 11:53:39.749 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Invalid-user-cannot-log-in-login-error.png – Login error: Epic sadface: Username and password do not match any user in this service
+2026-03-12 11:53:39.749 [INFO]   ✔ STEP OK: Assert login error message
+2026-03-12 11:53:39.749 [INFO] ✔ SCENARIO PASSED: "Invalid user cannot log in"
+2026-03-12 11:53:39.749 [INFO] CustomWorld.destroy: closing browser
+2026-03-12 11:53:39.768 [INFO] ▶ SCENARIO START: "Locked out user cannot log in"
+2026-03-12 11:53:39.768 [INFO]   ▷ STEP: Load credentials from credentials.json
+2026-03-12 11:53:39.768 [INFO] CustomWorld.init: launching browser for BDD scenario
+2026-03-12 11:53:39.957 [INFO] JsonHelper.read: /Users/AG125765/PlaywrightFramework/test-data/json/credentials.json
+2026-03-12 11:53:39.957 [INFO]   Loaded saucedemo credentials from credentials.json
+2026-03-12 11:53:39.957 [INFO]   ✔ STEP OK: Load credentials from credentials.json
+2026-03-12 11:53:39.957 [INFO]   ▷ STEP: Login as lockedUser
+2026-03-12 11:53:39.958 [INFO]   Logging in as "lockedUser" (username: locked_out_user)
+2026-03-12 11:53:43.412 [INFO]   Login button clicked – current URL: https://www.saucedemo.com/
+2026-03-12 11:53:43.451 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Locked-out-user-cannot-log-in-login-result-lockedUser.png – Login result for "lockedUser"
+2026-03-12 11:53:43.451 [INFO]   ✔ STEP OK: Login as lockedUser
+2026-03-12 11:53:43.451 [INFO]   ▷ STEP: Assert login error message
+2026-03-12 11:53:43.455 [INFO]   Login error message: "Epic sadface: Sorry, this user has been locked out."
+2026-03-12 11:53:43.482 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Locked-out-user-cannot-log-in-login-error.png – Login error: Epic sadface: Sorry, this user has been locked out.
+2026-03-12 11:53:43.482 [INFO]   ✔ STEP OK: Assert login error message
+2026-03-12 11:53:43.482 [INFO] ✔ SCENARIO PASSED: "Locked out user cannot log in"
+2026-03-12 11:53:43.482 [INFO] CustomWorld.destroy: closing browser
+2026-03-12 11:53:43.507 [INFO] ▶ SCENARIO START: "Standard user adds two products and places an order"
+2026-03-12 11:53:43.508 [INFO]   ▷ STEP: Load credentials from credentials.json
+2026-03-12 11:53:43.508 [INFO] CustomWorld.init: launching browser for BDD scenario
+2026-03-12 11:53:43.702 [INFO] JsonHelper.read: /Users/AG125765/PlaywrightFramework/test-data/json/credentials.json
+2026-03-12 11:53:43.703 [INFO]   Loaded saucedemo credentials from credentials.json
+2026-03-12 11:53:43.703 [INFO]   ✔ STEP OK: Load credentials from credentials.json
+2026-03-12 11:53:43.703 [INFO]   ▷ STEP: Login as standardUser
+2026-03-12 11:53:43.703 [INFO]   Logging in as "standardUser" (username: standard_user)
+2026-03-12 11:53:47.116 [INFO]   Login button clicked – current URL: https://www.saucedemo.com/inventory.html
+2026-03-12 11:53:47.187 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Standard-user-adds-two-products-and-places-an-order-login-result-standardUser.png – Login result for "standardUser"
+2026-03-12 11:53:47.187 [INFO]   ✔ STEP OK: Login as standardUser
+2026-03-12 11:53:47.187 [INFO]   ▷ STEP: Assert inventory page
+2026-03-12 11:53:47.190 [INFO]   Inventory page confirmed – title: "Products"
+2026-03-12 11:53:47.250 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Standard-user-adds-two-products-and-places-an-order-inventory-page.png – Inventory page loaded
+2026-03-12 11:53:47.250 [INFO]   ✔ STEP OK: Assert inventory page
+2026-03-12 11:53:47.251 [INFO]   ▷ STEP: Add configured products to cart
+2026-03-12 11:53:47.251 [INFO]   Adding 2 product(s) to cart: Sauce Labs Backpack, Sauce Labs Bike Light
+2026-03-12 11:53:47.285 [INFO]   Added to cart: "Sauce Labs Backpack"
+2026-03-12 11:53:47.317 [INFO]   Added to cart: "Sauce Labs Bike Light"
+2026-03-12 11:53:47.391 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Standard-user-adds-two-products-and-places-an-order-products-added.png – All products added to cart
+2026-03-12 11:53:47.391 [INFO]   ✔ STEP OK: Add configured products to cart
+2026-03-12 11:53:47.391 [INFO]   ▷ STEP: Open cart
+2026-03-12 11:53:47.421 [INFO]   Cart opened – URL: https://www.saucedemo.com/cart.html
+2026-03-12 11:53:47.479 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Standard-user-adds-two-products-and-places-an-order-cart-page.png – Cart page opened
+2026-03-12 11:53:47.479 [INFO]   ✔ STEP OK: Open cart
+2026-03-12 11:53:47.480 [INFO]   ▷ STEP: Assert cart contains 2 item(s)
+2026-03-12 11:53:47.481 [INFO]   Cart item count: 2 (expected: 2)
+2026-03-12 11:53:47.542 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Standard-user-adds-two-products-and-places-an-order-cart-count-2.png – Cart contains 2 item(s)
+2026-03-12 11:53:47.542 [INFO]   ✔ STEP OK: Assert cart contains 2 item(s)
+2026-03-12 11:53:47.542 [INFO]   ▷ STEP: Proceed to checkout
+2026-03-12 11:53:47.570 [INFO]   Checkout info page – URL: https://www.saucedemo.com/checkout-step-one.html
+2026-03-12 11:53:47.619 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Standard-user-adds-two-products-and-places-an-order-checkout-info.png – Checkout info page
+2026-03-12 11:53:47.619 [INFO]   ✔ STEP OK: Proceed to checkout
+2026-03-12 11:53:47.620 [INFO]   ▷ STEP: Fill checkout details
+2026-03-12 11:53:47.620 [INFO]   Filling checkout: John Doe, postal: 10001
+2026-03-12 11:53:47.670 [INFO]   Checkout overview page – URL: https://www.saucedemo.com/checkout-step-two.html
+2026-03-12 11:53:47.730 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Standard-user-adds-two-products-and-places-an-order-checkout-overview.png – Order overview page
+2026-03-12 11:53:47.731 [INFO]   ✔ STEP OK: Fill checkout details
+2026-03-12 11:53:47.731 [INFO]   ▷ STEP: Finish order
+2026-03-12 11:53:47.770 [INFO]   Order finished – URL: https://www.saucedemo.com/checkout-complete.html
+2026-03-12 11:53:47.817 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Standard-user-adds-two-products-and-places-an-order-order-placed.png – Order placed
+2026-03-12 11:53:47.817 [INFO]   ✔ STEP OK: Finish order
+2026-03-12 11:53:47.818 [INFO]   ▷ STEP: Assert order confirmation
+2026-03-12 11:53:47.820 [INFO]   Order confirmation header: "Thank you for your order!"
+2026-03-12 11:53:47.867 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Standard-user-adds-two-products-and-places-an-order-order-confirmed.png – Order confirmation displayed
+2026-03-12 11:53:47.867 [INFO]   ✔ STEP OK: Assert order confirmation
+2026-03-12 11:53:47.867 [INFO] ✔ SCENARIO PASSED: "Standard user adds two products and places an order"
+2026-03-12 11:53:47.867 [INFO] CustomWorld.destroy: closing browser
+2026-03-12 11:53:47.891 [INFO] ▶ SCENARIO START: "Standard user cannot complete checkout with an empty cart"
+2026-03-12 11:53:47.891 [INFO]   ▷ STEP: Load credentials from credentials.json
+2026-03-12 11:53:47.891 [INFO] CustomWorld.init: launching browser for BDD scenario
+2026-03-12 11:53:48.111 [INFO] JsonHelper.read: /Users/AG125765/PlaywrightFramework/test-data/json/credentials.json
+2026-03-12 11:53:48.112 [INFO]   Loaded saucedemo credentials from credentials.json
+2026-03-12 11:53:48.112 [INFO]   ✔ STEP OK: Load credentials from credentials.json
+2026-03-12 11:53:48.112 [INFO]   ▷ STEP: Login as standardUser
+2026-03-12 11:53:48.113 [INFO]   Logging in as "standardUser" (username: standard_user)
+2026-03-12 11:53:51.438 [INFO]   Login button clicked – current URL: https://www.saucedemo.com/inventory.html
+2026-03-12 11:53:51.537 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Standard-user-cannot-complete-checkout-with-an-empty-cart-login-result-standardUser.png – Login result for "standardUser"
+2026-03-12 11:53:51.537 [INFO]   ✔ STEP OK: Login as standardUser
+2026-03-12 11:53:51.537 [INFO]   ▷ STEP: Assert inventory page
+2026-03-12 11:53:51.540 [INFO]   Inventory page confirmed – title: "Products"
+2026-03-12 11:53:51.603 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Standard-user-cannot-complete-checkout-with-an-empty-cart-inventory-page.png – Inventory page loaded
+2026-03-12 11:53:51.603 [INFO]   ✔ STEP OK: Assert inventory page
+2026-03-12 11:53:51.603 [INFO]   ▷ STEP: Open cart
+2026-03-12 11:53:51.639 [INFO]   Cart opened – URL: https://www.saucedemo.com/cart.html
+2026-03-12 11:53:51.666 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Standard-user-cannot-complete-checkout-with-an-empty-cart-cart-page.png – Cart page opened
+2026-03-12 11:53:51.666 [INFO]   ✔ STEP OK: Open cart
+2026-03-12 11:53:51.666 [INFO]   ▷ STEP: Assert cart contains 0 item(s)
+2026-03-12 11:53:51.667 [INFO]   Cart item count: 0 (expected: 0)
+2026-03-12 11:53:51.698 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Standard-user-cannot-complete-checkout-with-an-empty-cart-cart-count-0.png – Cart contains 0 item(s)
+2026-03-12 11:53:51.698 [INFO]   ✔ STEP OK: Assert cart contains 0 item(s)
+2026-03-12 11:53:51.698 [INFO]   ▷ STEP: Proceed to checkout
+2026-03-12 11:53:51.736 [INFO]   Checkout info page – URL: https://www.saucedemo.com/checkout-step-one.html
+2026-03-12 11:53:51.788 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Standard-user-cannot-complete-checkout-with-an-empty-cart-checkout-info.png – Checkout info page
+2026-03-12 11:53:51.788 [INFO]   ✔ STEP OK: Proceed to checkout
+2026-03-12 11:53:51.788 [INFO]   ▷ STEP: Fill checkout details
+2026-03-12 11:53:51.788 [INFO]   Filling checkout: John Doe, postal: 10001
+2026-03-12 11:53:51.837 [INFO]   Checkout overview page – URL: https://www.saucedemo.com/checkout-step-two.html
+2026-03-12 11:53:51.886 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Standard-user-cannot-complete-checkout-with-an-empty-cart-checkout-overview.png – Order overview page
+2026-03-12 11:53:51.886 [INFO]   ✔ STEP OK: Fill checkout details
+2026-03-12 11:53:51.886 [INFO]   ▷ STEP: Assert empty order summary
+2026-03-12 11:53:51.887 [INFO]   Order summary item count: 0 (expected: 0)
+2026-03-12 11:53:51.936 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Standard-user-cannot-complete-checkout-with-an-empty-cart-empty-order-summary.png – Order summary has no items
+2026-03-12 11:53:51.936 [INFO]   ✔ STEP OK: Assert empty order summary
+2026-03-12 11:53:51.936 [INFO] ✔ SCENARIO PASSED: "Standard user cannot complete checkout with an empty cart"
+2026-03-12 11:53:51.936 [INFO] CustomWorld.destroy: closing browser
+2026-03-12 11:53:51.955 [INFO] ▶ SCENARIO START: "Checkout form validation_missing first name"
+2026-03-12 11:53:51.955 [INFO]   ▷ STEP: Load credentials from credentials.json
+2026-03-12 11:53:51.955 [INFO] CustomWorld.init: launching browser for BDD scenario
+2026-03-12 11:53:52.295 [INFO] JsonHelper.read: /Users/AG125765/PlaywrightFramework/test-data/json/credentials.json
+2026-03-12 11:53:52.295 [INFO]   Loaded saucedemo credentials from credentials.json
+2026-03-12 11:53:52.295 [INFO]   ✔ STEP OK: Load credentials from credentials.json
+2026-03-12 11:53:52.296 [INFO]   ▷ STEP: Login as standardUser
+2026-03-12 11:53:52.296 [INFO]   Logging in as "standardUser" (username: standard_user)
+2026-03-12 11:53:55.800 [INFO]   Login button clicked – current URL: https://www.saucedemo.com/inventory.html
+2026-03-12 11:53:55.869 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Checkout-form-validation_missing-first-name-login-result-standardUser.png – Login result for "standardUser"
+2026-03-12 11:53:55.870 [INFO]   ✔ STEP OK: Login as standardUser
+2026-03-12 11:53:55.870 [INFO]   ▷ STEP: Add configured products to cart
+2026-03-12 11:53:55.870 [INFO]   Adding 2 product(s) to cart: Sauce Labs Backpack, Sauce Labs Bike Light
+2026-03-12 11:53:55.901 [INFO]   Added to cart: "Sauce Labs Backpack"
+2026-03-12 11:53:55.934 [INFO]   Added to cart: "Sauce Labs Bike Light"
+2026-03-12 11:53:56.003 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Checkout-form-validation_missing-first-name-products-added.png – All products added to cart
+2026-03-12 11:53:56.003 [INFO]   ✔ STEP OK: Add configured products to cart
+2026-03-12 11:53:56.004 [INFO]   ▷ STEP: Open cart
+2026-03-12 11:53:56.037 [INFO]   Cart opened – URL: https://www.saucedemo.com/cart.html
+2026-03-12 11:53:56.094 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Checkout-form-validation_missing-first-name-cart-page.png – Cart page opened
+2026-03-12 11:53:56.094 [INFO]   ✔ STEP OK: Open cart
+2026-03-12 11:53:56.094 [INFO]   ▷ STEP: Proceed to checkout
+2026-03-12 11:53:56.120 [INFO]   Checkout info page – URL: https://www.saucedemo.com/checkout-step-one.html
+2026-03-12 11:53:56.172 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Checkout-form-validation_missing-first-name-checkout-info.png – Checkout info page
+2026-03-12 11:53:56.172 [INFO]   ✔ STEP OK: Proceed to checkout
+2026-03-12 11:53:56.172 [INFO]   ▷ STEP: Submit checkout without details
+2026-03-12 11:53:56.172 [INFO]   Clicking Continue without filling any checkout fields
+2026-03-12 11:53:56.255 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Checkout-form-validation_missing-first-name-checkout-empty-submit.png – Submitted checkout without filling details
+2026-03-12 11:53:56.255 [INFO]   ✔ STEP OK: Submit checkout without details
+2026-03-12 11:53:56.255 [INFO]   ▷ STEP: Assert checkout validation error
+2026-03-12 11:53:56.258 [INFO]   Checkout validation error: "Error: First Name is required"
+2026-03-12 11:53:56.322 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/Checkout-form-validation_missing-first-name-checkout-validation-error.png – Checkout validation error: Error: First Name is required
+2026-03-12 11:53:56.322 [INFO]   ✔ STEP OK: Assert checkout validation error
+2026-03-12 11:53:56.322 [INFO] ✔ SCENARIO PASSED: "Checkout form validation_missing first name"
+2026-03-12 11:53:56.322 [INFO] CustomWorld.destroy: closing browser
+2026-03-12 11:53:56.352 [INFO] ▶ SCENARIO START: "[FAIL] Cart count mismatch after adding 2 products"
+2026-03-12 11:53:56.352 [INFO]   ▷ STEP: Load credentials from credentials.json
+2026-03-12 11:53:56.352 [INFO] CustomWorld.init: launching browser for BDD scenario
+2026-03-12 11:53:56.543 [INFO] JsonHelper.read: /Users/AG125765/PlaywrightFramework/test-data/json/credentials.json
+2026-03-12 11:53:56.544 [INFO]   Loaded saucedemo credentials from credentials.json
+2026-03-12 11:53:56.544 [INFO]   ✔ STEP OK: Load credentials from credentials.json
+2026-03-12 11:53:56.544 [INFO]   ▷ STEP: Login as standardUser
+2026-03-12 11:53:56.544 [INFO]   Logging in as "standardUser" (username: standard_user)
+2026-03-12 11:54:00.024 [INFO]   Login button clicked – current URL: https://www.saucedemo.com/inventory.html
+2026-03-12 11:54:00.122 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/FAIL-Cart-count-mismatch-after-adding-2-products-login-result-standardUser.png – Login result for "standardUser"
+2026-03-12 11:54:00.122 [INFO]   ✔ STEP OK: Login as standardUser
+2026-03-12 11:54:00.122 [INFO]   ▷ STEP: Assert inventory page
+2026-03-12 11:54:00.126 [INFO]   Inventory page confirmed – title: "Products"
+2026-03-12 11:54:00.200 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/FAIL-Cart-count-mismatch-after-adding-2-products-inventory-page.png – Inventory page loaded
+2026-03-12 11:54:00.201 [INFO]   ✔ STEP OK: Assert inventory page
+2026-03-12 11:54:00.201 [INFO]   ▷ STEP: Add configured products to cart
+2026-03-12 11:54:00.201 [INFO]   Adding 2 product(s) to cart: Sauce Labs Backpack, Sauce Labs Bike Light
+2026-03-12 11:54:00.237 [INFO]   Added to cart: "Sauce Labs Backpack"
+2026-03-12 11:54:00.268 [INFO]   Added to cart: "Sauce Labs Bike Light"
+2026-03-12 11:54:00.341 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/FAIL-Cart-count-mismatch-after-adding-2-products-products-added.png – All products added to cart
+2026-03-12 11:54:00.341 [INFO]   ✔ STEP OK: Add configured products to cart
+2026-03-12 11:54:00.341 [INFO]   ▷ STEP: Open cart
+2026-03-12 11:54:00.394 [INFO]   Cart opened – URL: https://www.saucedemo.com/cart.html
+2026-03-12 11:54:00.457 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/FAIL-Cart-count-mismatch-after-adding-2-products-cart-page.png – Cart page opened
+2026-03-12 11:54:00.457 [INFO]   ✔ STEP OK: Open cart
+2026-03-12 11:54:00.457 [INFO]   ▷ STEP: Assert cart contains 3 item(s)
+2026-03-12 11:54:00.458 [INFO]   Cart item count: 2 (expected: 3)
+2026-03-12 11:54:00.460 [ERROR]   ✖ STEP FAILED: Assert cart contains 3 item(s) | Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 3
+Received: 2
+2026-03-12 11:54:00.509 [ERROR]   📸 Failure screenshot: reports/2026-03-12_11-53-27/screenshots/FAIL-Cart-count-mismatch-after-adding-2-products-FAIL-assert-cart-contains-3-items.png
+2026-03-12 11:54:00.558 [ERROR] ✖ SCENARIO FAILED: "[FAIL] Cart count mismatch after adding 2 products"
+2026-03-12 11:54:00.558 [ERROR]   Error: Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 3
+Received: 2
+    at Proxy.<anonymous> (/Users/AG125765/PlaywrightFramework/node_modules/playwright/lib/matchers/expect.js:213:24)
+    at /Users/AG125765/PlaywrightFramework/tests-bdd/steps/saucedemo.steps.ts:173:19
+    at async runStep (/Users/AG125765/PlaywrightFramework/tests-bdd/steps/saucedemo.steps.ts:67:5)
+    at async CustomWorld.<anonymous> (/Users/AG125765/PlaywrightFramework/tests-bdd/steps/saucedemo.steps.ts:169:3)
+2026-03-12 11:54:00.558 [INFO] CustomWorld.destroy: closing browser
+2026-03-12 11:54:00.589 [INFO] ▶ SCENARIO START: "[FAIL] Locked out user should reach inventory page"
+2026-03-12 11:54:00.590 [INFO]   ▷ STEP: Load credentials from credentials.json
+2026-03-12 11:54:00.590 [INFO] CustomWorld.init: launching browser for BDD scenario
+2026-03-12 11:54:00.793 [INFO] JsonHelper.read: /Users/AG125765/PlaywrightFramework/test-data/json/credentials.json
+2026-03-12 11:54:00.794 [INFO]   Loaded saucedemo credentials from credentials.json
+2026-03-12 11:54:00.794 [INFO]   ✔ STEP OK: Load credentials from credentials.json
+2026-03-12 11:54:00.794 [INFO]   ▷ STEP: Login as lockedUser
+2026-03-12 11:54:00.795 [INFO]   Logging in as "lockedUser" (username: locked_out_user)
+2026-03-12 11:54:04.211 [INFO]   Login button clicked – current URL: https://www.saucedemo.com/
+2026-03-12 11:54:04.235 [INFO]   📸 Screenshot: reports/2026-03-12_11-53-27/screenshots/FAIL-Locked-out-user-should-reach-inventory-page-login-result-lockedUser.png – Login result for "lockedUser"
+2026-03-12 11:54:04.235 [INFO]   ✔ STEP OK: Login as lockedUser
+2026-03-12 11:54:04.235 [INFO]   ▷ STEP: Assert inventory page
+2026-03-12 11:54:09.241 [ERROR]   ✖ STEP FAILED: Assert inventory page | Error: expect(page).toHaveURL(expected) failed
+
+Expected: "https://www.saucedemo.com/inventory.html"
+Received: "https://www.saucedemo.com/"
+Timeout:  5000ms
+
+Call log:
+  - Expect "to.have.url" with timeout 5000ms
+    9 × unexpected value "https://www.saucedemo.com/"
+
+2026-03-12 11:54:09.301 [ERROR]   📸 Failure screenshot: reports/2026-03-12_11-53-27/screenshots/FAIL-Locked-out-user-should-reach-inventory-page-FAIL-assert-inventory-page.png
+2026-03-12 11:54:09.338 [ERROR] ✖ SCENARIO FAILED: "[FAIL] Locked out user should reach inventory page"
+2026-03-12 11:54:09.338 [ERROR]   Error: Error: expect(page).toHaveURL(expected) failed
+
+Expected: "https://www.saucedemo.com/inventory.html"
+Received: "https://www.saucedemo.com/"
+Timeout:  5000ms
+
+Call log:
+  - Expect "to.have.url" with timeout 5000ms
+    9 × unexpected value "https://www.saucedemo.com/"
+
+    at Proxy.<anonymous> (/Users/AG125765/PlaywrightFramework/node_modules/playwright/lib/matchers/expect.js:213:24)
+    at /Users/AG125765/PlaywrightFramework/tests-bdd/steps/saucedemo.steps.ts:125:30
+    at runStep (/Users/AG125765/PlaywrightFramework/tests-bdd/steps/saucedemo.steps.ts:67:11)
+    at CustomWorld.<anonymous> (/Users/AG125765/PlaywrightFramework/tests-bdd/steps/saucedemo.steps.ts:124:9)
+2026-03-12 11:54:09.338 [INFO] CustomWorld.destroy: closing browser
