@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-03-16_17-31-19",
+  "feature": "saucedemo",
+  "status": "FAILED",
+  "generatedAt": "2026-03-16T17:32:07.666Z",
+  "environment": {
+    "hostname": "MacBookPro",
+    "os": "Darwin 25.2.0",
+    "platform": "darwin",
+    "arch": "arm64",
+    "node": "v25.8.0",
+    "playwright": "v1.58.2",
+    "browser": "Chromium (Playwright-managed)",
+    "feature": "saucedemo",
+    "executedAt": "2026-03-16T17:31:19.727Z"
+  }
+}
