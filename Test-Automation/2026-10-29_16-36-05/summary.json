@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-29_16-31-49",
+  "timestamp": "2026-10-29_16-36-05",
   "feature": "job-risk-assessment",
   "status": "FAILED",
-  "generatedAt": "2026-10-29T11:02:43.842Z",
+  "generatedAt": "2026-10-29T11:07:04.383Z",
   "environment": {
     "hostname": "MAINM46ZLPC1890",
     "os": "Darwin 25.6.0",
@@ -12,13 +12,13 @@
     "playwright": "v1.62.1",
     "browser": "Chromium (Playwright-managed)",
     "feature": "job-risk-assessment",
-    "executedAt": "2026-10-29T11:01:49.578Z"
+    "executedAt": "2026-10-29T11:06:06.039Z"
   },
   "metrics": {
     "runStatus": "failed",
-    "startedAt": "2026-10-29T11:01:49.578Z",
-    "finishedAt": "2026-10-29T11:02:43.842Z",
-    "durationMs": 54021,
+    "startedAt": "2026-10-29T11:06:06.039Z",
+    "finishedAt": "2026-10-29T11:07:04.383Z",
+    "durationMs": 58121,
     "scenarios": {
       "total": 11,
       "passed": 8,
