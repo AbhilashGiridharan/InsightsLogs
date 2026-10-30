@@ -1,0 +1,157 @@
+2026-10-30 10:43:28.111 [INFO] Removed previous run folder Results/2026-10-30_10-33-00
+2026-10-30 10:43:28.111 [INFO] RUN START: 20 test(s) · feature "job-risk-assessment" · run 2026-10-30_10-43-27
+2026-10-30 10:43:29.189 [INFO] ▶ SCENARIO START: "SC-01.02 Search the list for a created assessment and open its record page"
+2026-10-30 10:43:29.190 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:43:29.190 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:43:31.703 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:43:35.391 [INFO]   📸 Screenshot: reports/2026-10-30_10-43-27/screenshots/SC-01.02-Search-the-list-for-a-created-assessment-and-open-i-01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:43:35.391 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:43:35.412 [INFO]   ▷ STEP: I have created a Job Risk Assessment from "assessmentA"
+2026-10-30 10:43:41.208 [INFO]   📸 Screenshot: reports/2026-10-30_10-43-27/screenshots/SC-01.02-Search-the-list-for-a-created-assessment-and-open-i-02-I-have-created-a-Job-Risk-Assessment-from-assessmentA.png – after "I have created a Job Risk Assessment from "assessmentA""
+2026-10-30 10:43:41.209 [INFO]   ✔ STEP OK: I have created a Job Risk Assessment from "assessmentA"
+2026-10-30 10:43:41.212 [INFO]   ▷ STEP: I search the "Recently Viewed" list for the created assessment
+2026-10-30 10:43:43.706 [INFO]   📸 Screenshot: reports/2026-10-30_10-43-27/screenshots/SC-01.02-Search-the-list-for-a-created-assessment-and-open-i-03-I-search-the-Recently-Viewed-list-for-the-created-assessment.png – after "I search the "Recently Viewed" list for the created assessment"
+2026-10-30 10:43:43.706 [INFO]   ✔ STEP OK: I search the "Recently Viewed" list for the created assessment
+2026-10-30 10:43:43.707 [INFO]   ▷ STEP: only the created assessment is listed
+2026-10-30 10:43:43.763 [INFO]   📸 Screenshot: reports/2026-10-30_10-43-27/screenshots/SC-01.02-Search-the-list-for-a-created-assessment-and-open-i-04-only-the-created-assessment-is-listed.png – after "only the created assessment is listed"
+2026-10-30 10:43:43.763 [INFO]   ✔ STEP OK: only the created assessment is listed
+2026-10-30 10:43:43.764 [INFO]   ▷ STEP: I open the created assessment from the list
+2026-10-30 10:43:44.047 [INFO]   📸 Screenshot: reports/2026-10-30_10-43-27/screenshots/SC-01.02-Search-the-list-for-a-created-assessment-and-open-i-05-I-open-the-created-assessment-from-the-list.png – after "I open the created assessment from the list"
+2026-10-30 10:43:44.047 [INFO]   ✔ STEP OK: I open the created assessment from the list
+2026-10-30 10:43:44.048 [INFO]   ▷ STEP: the record page of the created assessment is displayed
+2026-10-30 10:43:44.145 [INFO]   📸 Screenshot: reports/2026-10-30_10-43-27/screenshots/SC-01.02-Search-the-list-for-a-created-assessment-and-open-i-06-the-record-page-of-the-created-assessment-is-displayed.png – after "the record page of the created assessment is displayed"
+2026-10-30 10:43:44.145 [INFO]   ✔ STEP OK: the record page of the created assessment is displayed
+2026-10-30 10:43:44.178 [INFO] ✔ SCENARIO PASSED: "SC-01.02 Search the list for a created assessment and open its record page"
+2026-10-30 10:43:44.208 [INFO] ▶ SCENARIO START: "SC-02.04 Save & New creates the record and opens a new, empty form"
+2026-10-30 10:43:44.208 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:43:44.208 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:43:45.012 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:43:46.804 [INFO]   📸 Screenshot: reports/2026-10-30_10-43-27/screenshots/SC-02.04-Save-New-creates-the-record-and-opens-a-new-empty-f-01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:43:46.804 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:43:46.807 [INFO]   ▷ STEP: I am on the Job Risk Assessments list view
+2026-10-30 10:43:49.045 [INFO]   📸 Screenshot: reports/2026-10-30_10-43-27/screenshots/SC-02.04-Save-New-creates-the-record-and-opens-a-new-empty-f-02-I-am-on-the-Job-Risk-Assessments-list-view.png – after "I am on the Job Risk Assessments list view"
+2026-10-30 10:43:49.045 [INFO]   ✔ STEP OK: I am on the Job Risk Assessments list view
+2026-10-30 10:43:49.049 [INFO]   ▷ STEP: I open the New Job Risk Assessment form
+2026-10-30 10:44:19.260 [ERROR]   ✖ STEP FAILED: I open the New Job Risk Assessment form | locator.waitFor: Timeout 30000ms exceeded.
+2026-10-30 10:44:19.309 [ERROR]   📸 Failure screenshot: reports/2026-10-30_10-43-27/screenshots/FAIL-SC-02.04-Save-New-creates-the-record-and-opens-a-new-empty-f-FAIL-I-open-the-New-Job-Risk-Assessment-form.png
+2026-10-30 10:44:19.586 [ERROR] ✖ SCENARIO FAILED: "SC-02.04 Save & New creates the record and opens a new, empty form"
+2026-10-30 10:44:19.586 [ERROR]   Error: TimeoutError: locator.waitFor: Timeout 30000ms exceeded.
+2026-10-30 10:44:19.586 [ERROR] Call log:
+2026-10-30 10:44:19.586 [ERROR]   - waiting for getByRole('dialog', { name: 'New Job Risk Assessment' }).getByRole('combobox', { name: 'Job Type' }) to be visible
+2026-10-30 10:44:19.586 [ERROR]     - waiting for "https://zensartechnologiesltd3.lightning.force.com/lightning/o/Job_Risk_Assessment__c/list?filterName=__Recent" navigation to finish...
+2026-10-30 10:44:19.586 [ERROR]     - navigated to "https://zensartechnologiesltd3.lightning.force.com/lightning/o/Job_Risk_Assessment__c/list?filterName=__Recent"
+2026-10-30 10:44:19.586 [ERROR] 
+2026-10-30 10:44:19.586 [ERROR]     at JobRiskAssessmentPage.clickNew (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/pages/JobRiskAssessmentPage.ts:215:14)
+2026-10-30 10:44:19.586 [ERROR]     at Object.<anonymous> (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/features/steps/jobRiskAssessment.steps.ts:97:5)
+2026-10-30 10:44:19.586 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/.features-gen/features/job-risk-assessment/US-02-create-job-risk-assessment.feature.spec.js:38:5
+2026-10-30 10:44:20.431 [INFO] ▶ SCENARIO START: "SC-04.01 Generate Assessment produces a PDF report for the record"
+2026-10-30 10:44:20.432 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:44:20.432 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:44:21.569 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:44:25.955 [INFO]   📸 Screenshot: reports/2026-10-30_10-43-27/screenshots/SC-04.01-Generate-Assessment-produces-a-PDF-report-for-the-r-01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:44:25.956 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:44:25.963 [INFO]   ▷ STEP: I have created a Job Risk Assessment from "assessmentA"
+2026-10-30 10:44:32.355 [INFO]   📸 Screenshot: reports/2026-10-30_10-43-27/screenshots/SC-04.01-Generate-Assessment-produces-a-PDF-report-for-the-r-02-I-have-created-a-Job-Risk-Assessment-from-assessmentA.png – after "I have created a Job Risk Assessment from "assessmentA""
+2026-10-30 10:44:32.355 [INFO]   ✔ STEP OK: I have created a Job Risk Assessment from "assessmentA"
+2026-10-30 10:44:32.358 [INFO]   ▷ STEP: I generate the assessment report
+2026-10-30 10:44:34.985 [INFO]   📸 Screenshot: reports/2026-10-30_10-43-27/screenshots/SC-04.01-Generate-Assessment-produces-a-PDF-report-for-the-r-03-I-generate-the-assessment-report.png – after "I generate the assessment report"
+2026-10-30 10:44:34.992 [INFO]   ✔ STEP OK: I generate the assessment report
+2026-10-30 10:44:35.009 [INFO]   ▷ STEP: a PDF document is produced for the created assessment
+2026-10-30 10:44:35.013 [ERROR]   ✖ STEP FAILED: a PDF document is produced for the created assessment | expect(received).toContain(expected) // indexOf
+2026-10-30 10:44:35.244 [ERROR]   📸 Failure screenshot: reports/2026-10-30_10-43-27/screenshots/FAIL-SC-04.01-Generate-Assessment-produces-a-PDF-report-for-the-r-FAIL-a-PDF-document-is-produced-for-the-created-assessment.png
+2026-10-30 10:44:35.728 [ERROR] ✖ SCENARIO FAILED: "SC-04.01 Generate Assessment produces a PDF report for the record"
+2026-10-30 10:44:35.728 [ERROR]   Error: Error: expect(received).toContain(expected) // indexOf
+2026-10-30 10:44:35.728 [ERROR] 
+2026-10-30 10:44:35.728 [ERROR] Expected substring: "application/pdf"
+2026-10-30 10:44:35.728 [ERROR] Received string:    "text/html; charset=UTF-8"
+2026-10-30 10:44:35.728 [ERROR]     at Object.<anonymous> (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/features/steps/jobRiskAssessment.steps.ts:196:50)
+2026-10-30 10:44:35.728 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/.features-gen/features/job-risk-assessment/US-04-generate-job-risk-assessment-pdf.feature.spec.js:13:5
+2026-10-30 10:44:36.964 [INFO] ▶ SCENARIO START: "SC-05.01 Admin logs in as the JRA Submitter from Setup > Profiles > View Users"
+2026-10-30 10:44:36.965 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:44:36.965 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:44:38.483 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:45:08.856 [ERROR]   ✖ STEP FAILED: I am logged into Salesforce as a sales agent | expect(locator).toBeVisible() failed
+2026-10-30 10:45:08.889 [ERROR]   📸 Failure screenshot: reports/2026-10-30_10-43-27/screenshots/FAIL-SC-05.01-Admin-logs-in-as-the-JRA-Submitter-from-Setup-Profi-FAIL-I-am-logged-into-Salesforce-as-a-sales-agent.png
+2026-10-30 10:45:08.990 [ERROR] ✖ SCENARIO FAILED: "SC-05.01 Admin logs in as the JRA Submitter from Setup > Profiles > View Users"
+2026-10-30 10:45:08.990 [ERROR]   Error: Error: expect(locator).toBeVisible() failed
+2026-10-30 10:45:08.990 [ERROR] 
+2026-10-30 10:45:08.990 [ERROR] Locator: getByRole('button', { name: 'App Launcher' })
+2026-10-30 10:45:08.990 [ERROR] Expected: visible
+2026-10-30 10:45:08.990 [ERROR] Timeout: 30000ms
+2026-10-30 10:45:08.990 [ERROR] Error: element(s) not found
+2026-10-30 10:45:08.990 [ERROR] 
+2026-10-30 10:45:08.990 [ERROR] Call log:
+2026-10-30 10:45:08.990 [ERROR]   - Expect "toBeVisible" with timeout 30000ms
+2026-10-30 10:45:08.990 [ERROR]   - waiting for getByRole('button', { name: 'App Launcher' })
+2026-10-30 10:45:08.990 [ERROR] 
+2026-10-30 10:45:08.990 [ERROR]     at HomePage.verifyLoaded (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/pages/HomePage.ts:29:11)
+2026-10-30 10:45:08.990 [ERROR]     at HomePage.open (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/pages/HomePage.ts:22:20)
+2026-10-30 10:45:08.990 [ERROR]     at Object.<anonymous> (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/features/steps/common.steps.ts:8:5)
+2026-10-30 10:45:08.990 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/.features-gen/features/job-risk-assessment/US-05-login-as-jra-user-from-setup.feature.spec.js:7:5
+2026-10-30 10:45:09.591 [INFO] ▶ SCENARIO START: "SC-05.02 Admin logs in as the JRA Supervisor from Setup > Profiles > View Users"
+2026-10-30 10:45:09.591 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:45:09.592 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:45:10.669 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:45:40.983 [ERROR]   ✖ STEP FAILED: I am logged into Salesforce as a sales agent | expect(locator).toBeVisible() failed
+2026-10-30 10:45:41.019 [ERROR]   📸 Failure screenshot: reports/2026-10-30_10-43-27/screenshots/FAIL-SC-05.02-Admin-logs-in-as-the-JRA-Supervisor-from-Setup-Prof-FAIL-I-am-logged-into-Salesforce-as-a-sales-agent.png
+2026-10-30 10:45:41.096 [ERROR] ✖ SCENARIO FAILED: "SC-05.02 Admin logs in as the JRA Supervisor from Setup > Profiles > View Users"
+2026-10-30 10:45:41.096 [ERROR]   Error: Error: expect(locator).toBeVisible() failed
+2026-10-30 10:45:41.096 [ERROR] 
+2026-10-30 10:45:41.096 [ERROR] Locator: getByRole('button', { name: 'App Launcher' })
+2026-10-30 10:45:41.096 [ERROR] Expected: visible
+2026-10-30 10:45:41.096 [ERROR] Timeout: 30000ms
+2026-10-30 10:45:41.096 [ERROR] Error: element(s) not found
+2026-10-30 10:45:41.096 [ERROR] 
+2026-10-30 10:45:41.096 [ERROR] Call log:
+2026-10-30 10:45:41.096 [ERROR]   - Expect "toBeVisible" with timeout 30000ms
+2026-10-30 10:45:41.096 [ERROR]   - waiting for getByRole('button', { name: 'App Launcher' })
+2026-10-30 10:45:41.096 [ERROR] 
+2026-10-30 10:45:41.096 [ERROR]     at HomePage.verifyLoaded (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/pages/HomePage.ts:29:11)
+2026-10-30 10:45:41.096 [ERROR]     at HomePage.open (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/pages/HomePage.ts:22:20)
+2026-10-30 10:45:41.096 [ERROR]     at Object.<anonymous> (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/features/steps/common.steps.ts:8:5)
+2026-10-30 10:45:41.096 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/.features-gen/features/job-risk-assessment/US-05-login-as-jra-user-from-setup.feature.spec.js:7:5
+2026-10-30 10:45:41.624 [INFO] ▶ SCENARIO START: "SC-06.01 JRA Submitter creates a Job Risk Assessment and keeps its RA number"
+2026-10-30 10:45:41.625 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:45:41.625 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:45:42.588 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:46:12.951 [ERROR]   ✖ STEP FAILED: I am logged into Salesforce as a sales agent | expect(locator).toBeVisible() failed
+2026-10-30 10:46:12.993 [ERROR]   📸 Failure screenshot: reports/2026-10-30_10-43-27/screenshots/FAIL-SC-06.01-JRA-Submitter-creates-a-Job-Risk-Assessment-and-kee-FAIL-I-am-logged-into-Salesforce-as-a-sales-agent.png
+2026-10-30 10:46:13.093 [ERROR] ✖ SCENARIO FAILED: "SC-06.01 JRA Submitter creates a Job Risk Assessment and keeps its RA number"
+2026-10-30 10:46:13.093 [ERROR]   Error: Error: expect(locator).toBeVisible() failed
+2026-10-30 10:46:13.093 [ERROR] 
+2026-10-30 10:46:13.093 [ERROR] Locator: getByRole('button', { name: 'App Launcher' })
+2026-10-30 10:46:13.093 [ERROR] Expected: visible
+2026-10-30 10:46:13.093 [ERROR] Timeout: 30000ms
+2026-10-30 10:46:13.093 [ERROR] Error: element(s) not found
+2026-10-30 10:46:13.093 [ERROR] 
+2026-10-30 10:46:13.093 [ERROR] Call log:
+2026-10-30 10:46:13.093 [ERROR]   - Expect "toBeVisible" with timeout 30000ms
+2026-10-30 10:46:13.093 [ERROR]   - waiting for getByRole('button', { name: 'App Launcher' })
+2026-10-30 10:46:13.093 [ERROR] 
+2026-10-30 10:46:13.093 [ERROR]     at HomePage.verifyLoaded (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/pages/HomePage.ts:29:11)
+2026-10-30 10:46:13.093 [ERROR]     at HomePage.open (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/pages/HomePage.ts:22:20)
+2026-10-30 10:46:13.093 [ERROR]     at Object.<anonymous> (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/features/steps/common.steps.ts:8:5)
+2026-10-30 10:46:13.093 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/.features-gen/features/job-risk-assessment/US-06-submitter-creates-job-risk-assessment.feature.spec.js:7:5
+2026-10-30 10:46:13.619 [INFO] ▶ SCENARIO START: "SC-06.02 JRA Submitter sees the New form sections, fields, picklists and defaults"
+2026-10-30 10:46:13.619 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:46:13.620 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:46:14.542 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:46:45.024 [ERROR]   ✖ STEP FAILED: I am logged into Salesforce as a sales agent | expect(locator).toBeVisible() failed
+2026-10-30 10:46:45.062 [ERROR]   📸 Failure screenshot: reports/2026-10-30_10-43-27/screenshots/FAIL-SC-06.02-JRA-Submitter-sees-the-New-form-sections-fields-pic-FAIL-I-am-logged-into-Salesforce-as-a-sales-agent.png
+2026-10-30 10:46:45.171 [ERROR] ✖ SCENARIO FAILED: "SC-06.02 JRA Submitter sees the New form sections, fields, picklists and defaults"
+2026-10-30 10:46:45.172 [ERROR]   Error: Error: expect(locator).toBeVisible() failed
+2026-10-30 10:46:45.172 [ERROR] 
+2026-10-30 10:46:45.172 [ERROR] Locator: getByRole('button', { name: 'App Launcher' })
+2026-10-30 10:46:45.172 [ERROR] Expected: visible
+2026-10-30 10:46:45.172 [ERROR] Timeout: 30000ms
+2026-10-30 10:46:45.172 [ERROR] Error: element(s) not found
+2026-10-30 10:46:45.172 [ERROR] 
+2026-10-30 10:46:45.172 [ERROR] Call log:
+2026-10-30 10:46:45.172 [ERROR]   - Expect "toBeVisible" with timeout 30000ms
+2026-10-30 10:46:45.172 [ERROR]   - waiting for getByRole('button', { name: 'App Launcher' })
+2026-10-30 10:46:45.172 [ERROR] 
+2026-10-30 10:46:45.172 [ERROR]     at HomePage.verifyLoaded (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/pages/HomePage.ts:29:11)
+2026-10-30 10:46:45.172 [ERROR]     at HomePage.open (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/pages/HomePage.ts:22:20)
+2026-10-30 10:46:45.172 [ERROR]     at Object.<anonymous> (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/features/steps/common.steps.ts:8:5)
+2026-10-30 10:46:45.172 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/.features-gen/features/job-risk-assessment/US-06-submitter-creates-job-risk-assessment.feature.spec.js:7:5
+2026-10-30 10:46:45.505 [INFO] RUN FINISHED: FAILED · 1 passed, 6 failed, 0 skipped, 0 flaky · pass rate 14.29% · 197.4s
