@@ -1,0 +1,840 @@
+{
+  "timestamp": "2026-10-30_10-39-40",
+  "feature": "job-risk-assessment",
+  "status": "FAILED",
+  "runStatus": "failed",
+  "startedAt": "2026-10-30T05:09:40.865Z",
+  "finishedAt": "2026-10-30T05:14:46.457Z",
+  "durationMs": 305692,
+  "scenarios": {
+    "total": 22,
+    "passed": 12,
+    "failed": 10,
+    "skipped": 0,
+    "flaky": 0
+  },
+  "steps": {
+    "total": 132,
+    "passed": 122,
+    "failed": 10,
+    "skipped": 0
+  },
+  "passRate": 54.55,
+  "screenshots": 132,
+  "failedScenarios": [
+    {
+      "name": "SC-02.02 Create a Job Risk Assessment with the alternative values and verify the saved record",
+      "failedStep": "Given I have created a Job Risk Assessment from \"assessmentB\"",
+      "error": "Error: expect(page).toHaveURL(expected) failed\n\nExpected pattern: /\\/lightning\\/r\\/Job_Risk_Assessment__c\\/\\w+\\/view/\nReceived string:  \"https://zensartechnologiesltd3.lightning.force.com/lightning/r/a0Bf600000I5smzEAB/view\"\nTimeout: 30000ms\n"
+    },
+    {
+      "name": "SC-04.01 Generate Assessment produces a PDF report for the record",
+      "failedStep": "Then a PDF document is produced for the created assessment",
+      "error": "Error: expect(received).toContain(expected) // indexOf\n\nExpected substring: \"application/pdf\"\nReceived string:    \"text/html; charset=UTF-8\""
+    },
+    {
+      "name": "SC-02.04 Save & New creates the record and opens a new, empty form",
+      "failedStep": "Then only the created assessment is listed",
+      "error": "Error: expect(locator).toHaveText(expected) failed\n\nLocator: getByRole('status', { name: 'All' })\nExpected pattern: /^1 item •/\nReceived string:  \"50+ items • Sorted by Job Risk Assesment Name • \"\nTimeout: 5000ms"
+    },
+    {
+      "name": "SC-02.06 Saving an empty New form is blocked with an error and creates no record",
+      "failedStep": "Then saving is blocked with an error and no Job Risk Assessment is created",
+      "error": "Error: Saving an empty Job Risk Assessment form must be blocked with an error\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: \"save blocked\"\nReceived: \"record created\""
+    },
+    {
+      "name": "SC-08.01 JRA Supervisor finds the Submitter's assessment and sees the same values and approval actions",
+      "failedStep": "Then only the created assessment is listed",
+      "error": "Error: expect(locator).toHaveText(expected) failed\n\nLocator: getByRole('status', { name: 'All' })\nExpected pattern: /^1 item •/\nReceived string:  \"0 items • Sorted by Job Risk Assesment Name • \"\nTimeout: 5000ms"
+    },
+    {
+      "name": "SC-08.02 JRA Supervisor sees an empty Audit Approval section before approval",
+      "failedStep": "And I am logged in as \"jraSubmitter\" through Setup",
+      "error": "Error: apiRequestContext._wrapApiCall: file data stream has unexpected number of bytes"
+    },
+    {
+      "name": "SC-06.03 JRA Submitter is not offered Approve Assessment on the record page",
+      "failedStep": "And I am logged in as \"jraSubmitter\" through Setup",
+      "error": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n  - waiting for getByRole('searchbox', { name: 'Quick Find' }) to be visible\n"
+    },
+    {
+      "name": "SC-09.01 JRA Supervisor approves the assessment and sees the PDF and e-mail confirmation with the dummy Submitter Email",
+      "failedStep": "And I am logged in as \"jraSubmitter\" through Setup",
+      "error": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n  - waiting for getByRole('link', { name: 'Log out as Test Script test', exact: true })\n"
+    },
+    {
+      "name": "SC-10.01 JRA Supervisor opens the approved PDF in Files from the approval dialog",
+      "failedStep": "And I am logged in as \"jraSubmitter\" through Setup",
+      "error": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n  - waiting for getByRole('link', { name: 'Log out as Test Script test', exact: true })\n"
+    },
+    {
+      "name": "SC-11.01 Submitter submits, Supervisor verifies, approves and opens the approved PDF",
+      "failedStep": "Given I am logged in as \"jraSubmitter\" through Setup",
+      "error": "TimeoutError: locator.elementHandle: Timeout 2000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: 'Setup', exact: true })\n"
+    }
+  ],
+  "scenarioDetails": [
+    {
+      "name": "SC-02.01 Create a Job Risk Assessment with all fields and verify the saved record",
+      "feature": "US-02 Create a New Job Risk Assessment",
+      "file": ".features-gen/features/job-risk-assessment/US-02-create-job-risk-assessment.feature.spec.js",
+      "line": 10,
+      "project": "bdd",
+      "tags": [
+        "@US-02",
+        "@SC-02.01",
+        "@AC-02.1",
+        "@AC-02.2",
+        "@AC-02.3",
+        "@AC-02.4",
+        "@P1",
+        "@positive",
+        "@smoke",
+        "@regression",
+        "@selfheal"
+      ],
+      "status": "passed",
+      "durationMs": 10847,
+      "retries": 0,
+      "steps": {
+        "total": 8,
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0
+      },
+      "screenshots": [
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.01-Create-a-Job-Risk-Assessment-with-all-fields-and-ve-01-I-am-logged-into-Salesforce-as-a-sales-agent.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.01-Create-a-Job-Risk-Assessment-with-all-fields-and-ve-02-I-am-on-the-Job-Risk-Assessments-list-view.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.01-Create-a-Job-Risk-Assessment-with-all-fields-and-ve-03-I-open-the-New-Job-Risk-Assessment-form.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.01-Create-a-Job-Risk-Assessment-with-all-fields-and-ve-04-the-New-Job-Risk-Assessment-form-shows-the-Information-secti.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.01-Create-a-Job-Risk-Assessment-with-all-fields-and-ve-05-I-fill-the-form-with-assessmentA-and-click-Save.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.01-Create-a-Job-Risk-Assessment-with-all-fields-and-ve-06-the-success-message-for-the-created-assessment-is-shown.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.01-Create-a-Job-Risk-Assessment-with-all-fields-and-ve-07-the-record-page-of-the-created-assessment-is-displayed.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.01-Create-a-Job-Risk-Assessment-with-all-fields-and-ve-08-the-Details-tab-shows-the-values-of-assessmentA.png"
+      ]
+    },
+    {
+      "name": "SC-01.01 Open Job Risk Assessments from the App Launcher and see the Recently Viewed list",
+      "feature": "US-01 Find and Browse Job Risk Assessments",
+      "file": ".features-gen/features/job-risk-assessment/US-01-find-and-browse-job-risk-assessments.feature.spec.js",
+      "line": 10,
+      "project": "bdd",
+      "tags": [
+        "@US-01",
+        "@SC-01.01",
+        "@AC-01.1",
+        "@AC-01.2",
+        "@AC-01.3",
+        "@P1",
+        "@positive",
+        "@smoke",
+        "@regression"
+      ],
+      "status": "passed",
+      "durationMs": 14539,
+      "retries": 0,
+      "steps": {
+        "total": 5,
+        "passed": 5,
+        "failed": 0,
+        "skipped": 0
+      },
+      "screenshots": [
+        "reports/2026-10-30_10-39-40/screenshots/SC-01.01-Open-Job-Risk-Assessments-from-the-App-Launcher-and-01-I-am-logged-into-Salesforce-as-a-sales-agent.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-01.01-Open-Job-Risk-Assessments-from-the-App-Launcher-and-02-I-open-Job-Risk-Assessments-from-the-App-Launcher.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-01.01-Open-Job-Risk-Assessments-from-the-App-Launcher-and-03-the-Recently-Viewed-list-view-of-Job-Risk-Assessments-is-dis.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-01.01-Open-Job-Risk-Assessments-from-the-App-Launcher-and-04-the-Recently-Viewed-list-shows-the-Job-Risk-Assesment-Name-c.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-01.01-Open-Job-Risk-Assessments-from-the-App-Launcher-and-05-the-list-view-offers-the-buttons-New-Import-Change-Owner-and.png"
+      ]
+    },
+    {
+      "name": "SC-01.02 Search the list for a created assessment and open its record page",
+      "feature": "US-01 Find and Browse Job Risk Assessments",
+      "file": ".features-gen/features/job-risk-assessment/US-01-find-and-browse-job-risk-assessments.feature.spec.js",
+      "line": 17,
+      "project": "bdd",
+      "tags": [
+        "@US-01",
+        "@SC-01.02",
+        "@AC-01.4",
+        "@AC-01.5",
+        "@P2",
+        "@positive",
+        "@regression"
+      ],
+      "status": "passed",
+      "durationMs": 13812,
+      "retries": 0,
+      "steps": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0
+      },
+      "screenshots": [
+        "reports/2026-10-30_10-39-40/screenshots/SC-01.02-Search-the-list-for-a-created-assessment-and-open-i-01-I-am-logged-into-Salesforce-as-a-sales-agent.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-01.02-Search-the-list-for-a-created-assessment-and-open-i-02-I-have-created-a-Job-Risk-Assessment-from-assessmentA.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-01.02-Search-the-list-for-a-created-assessment-and-open-i-03-I-search-the-Recently-Viewed-list-for-the-created-assessment.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-01.02-Search-the-list-for-a-created-assessment-and-open-i-04-only-the-created-assessment-is-listed.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-01.02-Search-the-list-for-a-created-assessment-and-open-i-05-I-open-the-created-assessment-from-the-list.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-01.02-Search-the-list-for-a-created-assessment-and-open-i-06-the-record-page-of-the-created-assessment-is-displayed.png"
+      ]
+    },
+    {
+      "name": "SC-03.01 Record page header and Details tab show all fields with the record's values",
+      "feature": "US-03 View Job Risk Assessment Details",
+      "file": ".features-gen/features/job-risk-assessment/US-03-view-job-risk-assessment-details.feature.spec.js",
+      "line": 10,
+      "project": "bdd",
+      "tags": [
+        "@US-03",
+        "@SC-03.01",
+        "@AC-03.1",
+        "@AC-03.2",
+        "@P2",
+        "@positive",
+        "@regression"
+      ],
+      "status": "passed",
+      "durationMs": 8011,
+      "retries": 0,
+      "steps": {
+        "total": 6,
+        "passed": 6,
+        "failed": 0,
+        "skipped": 0
+      },
+      "screenshots": [
+        "reports/2026-10-30_10-39-40/screenshots/SC-03.01-Record-page-header-and-Details-tab-show-all-fields--01-I-am-logged-into-Salesforce-as-a-sales-agent.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-03.01-Record-page-header-and-Details-tab-show-all-fields--02-I-have-created-a-Job-Risk-Assessment-from-assessmentA.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-03.01-Record-page-header-and-Details-tab-show-all-fields--03-the-record-page-header-shows-Job-Risk-Assessment-and-the-cre.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-03.01-Record-page-header-and-Details-tab-show-all-fields--04-the-Details-tab-shows-the-fields-of-detailsLayout.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-03.01-Record-page-header-and-Details-tab-show-all-fields--05-the-Details-tab-shows-the-values-of-assessmentA.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-03.01-Record-page-header-and-Details-tab-show-all-fields--06-the-Owner-Created-By-and-Last-Modified-By-show-the-current-u.png"
+      ]
+    },
+    {
+      "name": "SC-03.02 Record page offers the actions, the Related tab and the Activity panel",
+      "feature": "US-03 View Job Risk Assessment Details",
+      "file": ".features-gen/features/job-risk-assessment/US-03-view-job-risk-assessment-details.feature.spec.js",
+      "line": 18,
+      "project": "bdd",
+      "tags": [
+        "@US-03",
+        "@SC-03.02",
+        "@AC-03.3",
+        "@AC-03.4",
+        "@P2",
+        "@positive",
+        "@regression"
+      ],
+      "status": "passed",
+      "durationMs": 9388,
+      "retries": 0,
+      "steps": {
+        "total": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0
+      },
+      "screenshots": [
+        "reports/2026-10-30_10-39-40/screenshots/SC-03.02-Record-page-offers-the-actions-the-Related-tab-and--01-I-am-logged-into-Salesforce-as-a-sales-agent.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-03.02-Record-page-offers-the-actions-the-Related-tab-and--02-I-have-created-a-Job-Risk-Assessment-from-assessmentA.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-03.02-Record-page-offers-the-actions-the-Related-tab-and--03-the-record-page-offers-the-actions-Generate-Assessment-New-C.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-03.02-Record-page-offers-the-actions-the-Related-tab-and--04-the-record-page-shows-the-Related-tab-and-the-Activity-panel.png"
+      ]
+    },
+    {
+      "name": "SC-02.02 Create a Job Risk Assessment with the alternative values and verify the saved record",
+      "feature": "US-02 Create a New Job Risk Assessment",
+      "file": ".features-gen/features/job-risk-assessment/US-02-create-job-risk-assessment.feature.spec.js",
+      "line": 20,
+      "project": "bdd",
+      "tags": [
+        "@US-02",
+        "@SC-02.02",
+        "@AC-02.3",
+        "@AC-02.4",
+        "@P2",
+        "@positive",
+        "@regression"
+      ],
+      "status": "failed",
+      "durationMs": 43773,
+      "retries": 0,
+      "steps": {
+        "total": 2,
+        "passed": 1,
+        "failed": 1,
+        "skipped": 0
+      },
+      "failedStep": "Given I have created a Job Risk Assessment from \"assessmentB\"",
+      "error": "Error: expect(page).toHaveURL(expected) failed\n\nExpected pattern: /\\/lightning\\/r\\/Job_Risk_Assessment__c\\/\\w+\\/view/\nReceived string:  \"https://zensartechnologiesltd3.lightning.force.com/lightning/r/a0Bf600000I5smzEAB/view\"\nTimeout: 30000ms\n",
+      "screenshots": [
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.02-Create-a-Job-Risk-Assessment-with-the-alternative-v-01-I-am-logged-into-Salesforce-as-a-sales-agent.png",
+        "reports/2026-10-30_10-39-40/screenshots/FAIL-SC-02.02-Create-a-Job-Risk-Assessment-with-the-alternative-v-FAIL-I-have-created-a-Job-Risk-Assessment-from-assessmentB.png"
+      ]
+    },
+    {
+      "name": "SC-04.01 Generate Assessment produces a PDF report for the record",
+      "feature": "US-04 Generate the Job Risk Assessment PDF Report",
+      "file": ".features-gen/features/job-risk-assessment/US-04-generate-job-risk-assessment-pdf.feature.spec.js",
+      "line": 10,
+      "project": "bdd",
+      "tags": [
+        "@US-04",
+        "@SC-04.01",
+        "@AC-04.1",
+        "@P1",
+        "@e2e",
+        "@smoke",
+        "@regression",
+        "@possible-defect"
+      ],
+      "status": "failed",
+      "durationMs": 12019,
+      "retries": 0,
+      "steps": {
+        "total": 4,
+        "passed": 3,
+        "failed": 1,
+        "skipped": 0
+      },
+      "failedStep": "Then a PDF document is produced for the created assessment",
+      "error": "Error: expect(received).toContain(expected) // indexOf\n\nExpected substring: \"application/pdf\"\nReceived string:    \"text/html; charset=UTF-8\"",
+      "screenshots": [
+        "reports/2026-10-30_10-39-40/screenshots/SC-04.01-Generate-Assessment-produces-a-PDF-report-for-the-r-01-I-am-logged-into-Salesforce-as-a-sales-agent.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-04.01-Generate-Assessment-produces-a-PDF-report-for-the-r-02-I-have-created-a-Job-Risk-Assessment-from-assessmentA.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-04.01-Generate-Assessment-produces-a-PDF-report-for-the-r-03-I-generate-the-assessment-report.png",
+        "reports/2026-10-30_10-39-40/screenshots/FAIL-SC-04.01-Generate-Assessment-produces-a-PDF-report-for-the-r-FAIL-a-PDF-document-is-produced-for-the-created-assessment.png"
+      ]
+    },
+    {
+      "name": "SC-02.03 New form shows all fields, the picklist values and the Owner pre-filled",
+      "feature": "US-02 Create a New Job Risk Assessment",
+      "file": ".features-gen/features/job-risk-assessment/US-02-create-job-risk-assessment.feature.spec.js",
+      "line": 26,
+      "project": "bdd",
+      "tags": [
+        "@US-02",
+        "@SC-02.03",
+        "@AC-02.1",
+        "@AC-02.2",
+        "@P2",
+        "@positive",
+        "@regression"
+      ],
+      "status": "passed",
+      "durationMs": 9891,
+      "retries": 0,
+      "steps": {
+        "total": 8,
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0
+      },
+      "screenshots": [
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.03-New-form-shows-all-fields-the-picklist-values-and-t-01-I-am-logged-into-Salesforce-as-a-sales-agent.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.03-New-form-shows-all-fields-the-picklist-values-and-t-02-I-am-on-the-Job-Risk-Assessments-list-view.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.03-New-form-shows-all-fields-the-picklist-values-and-t-03-I-open-the-New-Job-Risk-Assessment-form.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.03-New-form-shows-all-fields-the-picklist-values-and-t-04-the-New-Job-Risk-Assessment-form-shows-the-Information-secti.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.03-New-form-shows-all-fields-the-picklist-values-and-t-05-the-form-shows-the-fields-of-formLayout.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.03-New-form-shows-all-fields-the-picklist-values-and-t-06-the-picklists-offer-the-values-of-formLayout.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.03-New-form-shows-all-fields-the-picklist-values-and-t-07-I-cancel-the-New-Job-Risk-Assessment-form.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.03-New-form-shows-all-fields-the-picklist-values-and-t-08-the-New-Job-Risk-Assessment-form-is-closed.png"
+      ]
+    },
+    {
+      "name": "SC-05.01 Admin logs in as the JRA Submitter from Setup > Profiles > View Users",
+      "feature": "US-05 Log in as a JRA user from Setup (Login As by profile)",
+      "file": ".features-gen/features/job-risk-assessment/US-05-login-as-jra-user-from-setup.feature.spec.js",
+      "line": 10,
+      "project": "bdd",
+      "tags": [
+        "@US-05",
+        "@SC-05.01",
+        "@AC-05.1",
+        "@AC-05.2",
+        "@AC-05.3",
+        "@AC-05.4",
+        "@AC-05.5",
+        "@P1",
+        "@positive",
+        "@smoke",
+        "@regression"
+      ],
+      "status": "passed",
+      "durationMs": 21134,
+      "retries": 0,
+      "steps": {
+        "total": 11,
+        "passed": 11,
+        "failed": 0,
+        "skipped": 0
+      },
+      "screenshots": [
+        "reports/2026-10-30_10-39-40/screenshots/SC-05.01-Admin-logs-in-as-the-JRA-Submitter-from-Setup-Profi-01-I-am-logged-into-Salesforce-as-a-sales-agent.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-05.01-Admin-logs-in-as-the-JRA-Submitter-from-Setup-Profi-02-I-open-Setup-from-the-gear-menu.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-05.01-Admin-logs-in-as-the-JRA-Submitter-from-Setup-Profi-03-Setup-Home-welcomes-the-administrator.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-05.01-Admin-logs-in-as-the-JRA-Submitter-from-Setup-Profi-04-I-open-Profiles-from-the-Setup-Quick-Find.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-05.01-Admin-logs-in-as-the-JRA-Submitter-from-Setup-Profi-05-the-Profiles-list-shows-the-custom-profiles-of-jraSubmitter-.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-05.01-Admin-logs-in-as-the-JRA-Submitter-from-Setup-Profi-06-I-open-the-profile-of-jraSubmitter.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-05.01-Admin-logs-in-as-the-JRA-Submitter-from-Setup-Profi-07-the-profile-detail-of-jraSubmitter-is-displayed.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-05.01-Admin-logs-in-as-the-JRA-Submitter-from-Setup-Profi-08-I-view-the-users-of-the-profile.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-05.01-Admin-logs-in-as-the-JRA-Submitter-from-Setup-Profi-09-the-users-list-shows-the-active-user-of-jraSubmitter.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-05.01-Admin-logs-in-as-the-JRA-Submitter-from-Setup-Profi-10-I-log-in-as-the-user-of-jraSubmitter.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-05.01-Admin-logs-in-as-the-JRA-Submitter-from-Setup-Profi-11-Salesforce-shows-the-Login-As-banner-of-jraSubmitter.png"
+      ]
+    },
+    {
+      "name": "SC-02.04 Save & New creates the record and opens a new, empty form",
+      "feature": "US-02 Create a New Job Risk Assessment",
+      "file": ".features-gen/features/job-risk-assessment/US-02-create-job-risk-assessment.feature.spec.js",
+      "line": 36,
+      "project": "bdd",
+      "tags": [
+        "@US-02",
+        "@SC-02.04",
+        "@AC-02.5",
+        "@P2",
+        "@positive",
+        "@regression"
+      ],
+      "status": "failed",
+      "durationMs": 17763,
+      "retries": 0,
+      "steps": {
+        "total": 9,
+        "passed": 8,
+        "failed": 1,
+        "skipped": 0
+      },
+      "failedStep": "Then only the created assessment is listed",
+      "error": "Error: expect(locator).toHaveText(expected) failed\n\nLocator: getByRole('status', { name: 'All' })\nExpected pattern: /^1 item •/\nReceived string:  \"50+ items • Sorted by Job Risk Assesment Name • \"\nTimeout: 5000ms",
+      "screenshots": [
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.04-Save-New-creates-the-record-and-opens-a-new-empty-f-01-I-am-logged-into-Salesforce-as-a-sales-agent.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.04-Save-New-creates-the-record-and-opens-a-new-empty-f-02-I-am-on-the-Job-Risk-Assessments-list-view.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.04-Save-New-creates-the-record-and-opens-a-new-empty-f-03-I-open-the-New-Job-Risk-Assessment-form.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.04-Save-New-creates-the-record-and-opens-a-new-empty-f-04-I-fill-the-form-with-assessmentA-and-click-Save-New.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.04-Save-New-creates-the-record-and-opens-a-new-empty-f-05-the-success-message-for-the-created-assessment-is-shown.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.04-Save-New-creates-the-record-and-opens-a-new-empty-f-06-an-empty-New-Job-Risk-Assessment-form-is-displayed.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.04-Save-New-creates-the-record-and-opens-a-new-empty-f-07-I-cancel-the-New-Job-Risk-Assessment-form.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.04-Save-New-creates-the-record-and-opens-a-new-empty-f-08-I-search-the-All-list-for-the-created-assessment.png",
+        "reports/2026-10-30_10-39-40/screenshots/FAIL-SC-02.04-Save-New-creates-the-record-and-opens-a-new-empty-f-FAIL-only-the-created-assessment-is-listed.png"
+      ]
+    },
+    {
+      "name": "SC-02.05 Cancel closes the New form without creating a record",
+      "feature": "US-02 Create a New Job Risk Assessment",
+      "file": ".features-gen/features/job-risk-assessment/US-02-create-job-risk-assessment.feature.spec.js",
+      "line": 47,
+      "project": "bdd",
+      "tags": [
+        "@US-02",
+        "@SC-02.05",
+        "@AC-02.5",
+        "@P2",
+        "@positive",
+        "@regression"
+      ],
+      "status": "passed",
+      "durationMs": 14787,
+      "retries": 0,
+      "steps": {
+        "total": 8,
+        "passed": 8,
+        "failed": 0,
+        "skipped": 0
+      },
+      "screenshots": [
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.05-Cancel-closes-the-New-form-without-creating-a-recor-01-I-am-logged-into-Salesforce-as-a-sales-agent.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.05-Cancel-closes-the-New-form-without-creating-a-recor-02-I-am-on-the-Job-Risk-Assessments-list-view.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.05-Cancel-closes-the-New-form-without-creating-a-recor-03-I-open-the-New-Job-Risk-Assessment-form.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.05-Cancel-closes-the-New-form-without-creating-a-recor-04-I-fill-the-form-with-assessmentCancel-without-saving.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.05-Cancel-closes-the-New-form-without-creating-a-recor-05-I-cancel-the-New-Job-Risk-Assessment-form.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.05-Cancel-closes-the-New-form-without-creating-a-recor-06-the-New-Job-Risk-Assessment-form-is-closed-without-a-success.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.05-Cancel-closes-the-New-form-without-creating-a-recor-07-I-search-the-All-list-for-the-cancelled-assessment.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.05-Cancel-closes-the-New-form-without-creating-a-recor-08-the-list-shows-0-items-and-the-message-Nothing-to-see-here.png"
+      ]
+    },
+    {
+      "name": "SC-05.02 Admin logs in as the JRA Supervisor from Setup > Profiles > View Users",
+      "feature": "US-05 Log in as a JRA user from Setup (Login As by profile)",
+      "file": ".features-gen/features/job-risk-assessment/US-05-login-as-jra-user-from-setup.feature.spec.js",
+      "line": 23,
+      "project": "bdd",
+      "tags": [
+        "@US-05",
+        "@SC-05.02",
+        "@AC-05.1",
+        "@AC-05.2",
+        "@AC-05.6",
+        "@P1",
+        "@positive",
+        "@regression"
+      ],
+      "status": "passed",
+      "durationMs": 22730,
+      "retries": 0,
+      "steps": {
+        "total": 10,
+        "passed": 10,
+        "failed": 0,
+        "skipped": 0
+      },
+      "screenshots": [
+        "reports/2026-10-30_10-39-40/screenshots/SC-05.02-Admin-logs-in-as-the-JRA-Supervisor-from-Setup-Prof-01-I-am-logged-into-Salesforce-as-a-sales-agent.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-05.02-Admin-logs-in-as-the-JRA-Supervisor-from-Setup-Prof-02-I-open-Setup-from-the-gear-menu.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-05.02-Admin-logs-in-as-the-JRA-Supervisor-from-Setup-Prof-03-Setup-Home-welcomes-the-administrator.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-05.02-Admin-logs-in-as-the-JRA-Supervisor-from-Setup-Prof-04-I-open-Profiles-from-the-Setup-Quick-Find.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-05.02-Admin-logs-in-as-the-JRA-Supervisor-from-Setup-Prof-05-the-Profiles-list-shows-the-custom-profiles-of-jraSubmitter-.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-05.02-Admin-logs-in-as-the-JRA-Supervisor-from-Setup-Prof-06-I-open-the-profile-of-jraSupervisor.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-05.02-Admin-logs-in-as-the-JRA-Supervisor-from-Setup-Prof-07-I-view-the-users-of-the-profile.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-05.02-Admin-logs-in-as-the-JRA-Supervisor-from-Setup-Prof-08-the-users-list-shows-the-active-user-of-jraSupervisor.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-05.02-Admin-logs-in-as-the-JRA-Supervisor-from-Setup-Prof-09-I-log-in-as-the-user-of-jraSupervisor.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-05.02-Admin-logs-in-as-the-JRA-Supervisor-from-Setup-Prof-10-Salesforce-shows-the-Login-As-banner-of-jraSupervisor.png"
+      ]
+    },
+    {
+      "name": "SC-02.06 Saving an empty New form is blocked with an error and creates no record",
+      "feature": "US-02 Create a New Job Risk Assessment",
+      "file": ".features-gen/features/job-risk-assessment/US-02-create-job-risk-assessment.feature.spec.js",
+      "line": 57,
+      "project": "bdd",
+      "tags": [
+        "@US-02",
+        "@SC-02.06",
+        "@AC-02.6",
+        "@P2",
+        "@negative",
+        "@regression",
+        "@possible-defect"
+      ],
+      "status": "failed",
+      "durationMs": 7328,
+      "retries": 0,
+      "steps": {
+        "total": 5,
+        "passed": 4,
+        "failed": 1,
+        "skipped": 0
+      },
+      "failedStep": "Then saving is blocked with an error and no Job Risk Assessment is created",
+      "error": "Error: Saving an empty Job Risk Assessment form must be blocked with an error\n\nexpect(received).toBe(expected) // Object.is equality\n\nExpected: \"save blocked\"\nReceived: \"record created\"",
+      "screenshots": [
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.06-Saving-an-empty-New-form-is-blocked-with-an-error-a-01-I-am-logged-into-Salesforce-as-a-sales-agent.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.06-Saving-an-empty-New-form-is-blocked-with-an-error-a-02-I-am-on-the-Job-Risk-Assessments-list-view.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.06-Saving-an-empty-New-form-is-blocked-with-an-error-a-03-I-open-the-New-Job-Risk-Assessment-form.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-02.06-Saving-an-empty-New-form-is-blocked-with-an-error-a-04-I-save-the-New-Job-Risk-Assessment-form-without-entering-any.png",
+        "reports/2026-10-30_10-39-40/screenshots/FAIL-SC-02.06-Saving-an-empty-New-form-is-blocked-with-an-error-a-FAIL-saving-is-blocked-with-an-error-and-no-Job-Risk-Assessment-i.png"
+      ]
+    },
+    {
+      "name": "SC-06.01 JRA Submitter creates a Job Risk Assessment and keeps its RA number",
+      "feature": "US-06 JRA Submitter creates a Job Risk Assessment and keeps its ID",
+      "file": ".features-gen/features/job-risk-assessment/US-06-submitter-creates-job-risk-assessment.feature.spec.js",
+      "line": 11,
+      "project": "bdd",
+      "tags": [
+        "@US-06",
+        "@SC-06.01",
+        "@AC-06.1",
+        "@AC-06.4",
+        "@AC-06.5",
+        "@P1",
+        "@positive",
+        "@smoke",
+        "@regression"
+      ],
+      "status": "passed",
+      "durationMs": 32696,
+      "retries": 0,
+      "steps": {
+        "total": 10,
+        "passed": 10,
+        "failed": 0,
+        "skipped": 0
+      },
+      "screenshots": [
+        "reports/2026-10-30_10-39-40/screenshots/SC-06.01-JRA-Submitter-creates-a-Job-Risk-Assessment-and-kee-01-I-am-logged-into-Salesforce-as-a-sales-agent.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-06.01-JRA-Submitter-creates-a-Job-Risk-Assessment-and-kee-02-I-am-logged-in-as-jraSubmitter-through-Setup.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-06.01-JRA-Submitter-creates-a-Job-Risk-Assessment-and-kee-03-I-open-Job-Risk-Assessments-from-the-App-Launcher.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-06.01-JRA-Submitter-creates-a-Job-Risk-Assessment-and-kee-04-the-Recently-Viewed-list-view-of-Job-Risk-Assessments-is-dis.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-06.01-JRA-Submitter-creates-a-Job-Risk-Assessment-and-kee-05-I-open-the-New-Job-Risk-Assessment-form.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-06.01-JRA-Submitter-creates-a-Job-Risk-Assessment-and-kee-06-I-fill-the-form-with-submittedAssessment-and-click-Save.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-06.01-JRA-Submitter-creates-a-Job-Risk-Assessment-and-kee-07-the-success-message-for-the-created-assessment-is-shown.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-06.01-JRA-Submitter-creates-a-Job-Risk-Assessment-and-kee-08-the-record-page-of-the-created-assessment-is-displayed.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-06.01-JRA-Submitter-creates-a-Job-Risk-Assessment-and-kee-09-the-Details-tab-shows-the-values-of-submittedAssessment.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-06.01-JRA-Submitter-creates-a-Job-Risk-Assessment-and-kee-10-the-record-fields-Owner-Created-By-Last-Modified-By-show-the.png"
+      ]
+    },
+    {
+      "name": "SC-06.02 JRA Submitter sees the New form sections, fields, picklists and defaults",
+      "feature": "US-06 JRA Submitter creates a Job Risk Assessment and keeps its ID",
+      "file": ".features-gen/features/job-risk-assessment/US-06-submitter-creates-job-risk-assessment.feature.spec.js",
+      "line": 22,
+      "project": "bdd",
+      "tags": [
+        "@US-06",
+        "@SC-06.02",
+        "@AC-06.2",
+        "@AC-06.3",
+        "@P2",
+        "@positive",
+        "@regression"
+      ],
+      "status": "passed",
+      "durationMs": 30653,
+      "retries": 0,
+      "steps": {
+        "total": 9,
+        "passed": 9,
+        "failed": 0,
+        "skipped": 0
+      },
+      "screenshots": [
+        "reports/2026-10-30_10-39-40/screenshots/SC-06.02-JRA-Submitter-sees-the-New-form-sections-fields-pic-01-I-am-logged-into-Salesforce-as-a-sales-agent.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-06.02-JRA-Submitter-sees-the-New-form-sections-fields-pic-02-I-am-logged-in-as-jraSubmitter-through-Setup.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-06.02-JRA-Submitter-sees-the-New-form-sections-fields-pic-03-I-am-on-the-Job-Risk-Assessments-list-view.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-06.02-JRA-Submitter-sees-the-New-form-sections-fields-pic-04-I-open-the-New-Job-Risk-Assessment-form.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-06.02-JRA-Submitter-sees-the-New-form-sections-fields-pic-05-the-New-form-shows-the-sections-and-defaults-of-submitterFor.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-06.02-JRA-Submitter-sees-the-New-form-sections-fields-pic-06-the-form-shows-the-fields-of-submitterFormLayout.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-06.02-JRA-Submitter-sees-the-New-form-sections-fields-pic-07-the-picklists-offer-the-values-of-submitterFormLayout.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-06.02-JRA-Submitter-sees-the-New-form-sections-fields-pic-08-I-cancel-the-New-Job-Risk-Assessment-form.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-06.02-JRA-Submitter-sees-the-New-form-sections-fields-pic-09-the-New-Job-Risk-Assessment-form-is-closed.png"
+      ]
+    },
+    {
+      "name": "SC-08.01 JRA Supervisor finds the Submitter's assessment and sees the same values and approval actions",
+      "feature": "US-08 JRA Supervisor opens the submitted assessment and sees the same values",
+      "file": ".features-gen/features/job-risk-assessment/US-08-supervisor-opens-submitted-assessment.feature.spec.js",
+      "line": 16,
+      "project": "bdd",
+      "tags": [
+        "@US-08",
+        "@SC-08.01",
+        "@AC-08.1",
+        "@AC-08.2",
+        "@AC-08.3",
+        "@P1",
+        "@positive",
+        "@smoke",
+        "@regression"
+      ],
+      "status": "failed",
+      "durationMs": 60645,
+      "retries": 0,
+      "steps": {
+        "total": 6,
+        "passed": 5,
+        "failed": 1,
+        "skipped": 0
+      },
+      "failedStep": "Then only the created assessment is listed",
+      "error": "Error: expect(locator).toHaveText(expected) failed\n\nLocator: getByRole('status', { name: 'All' })\nExpected pattern: /^1 item •/\nReceived string:  \"0 items • Sorted by Job Risk Assesment Name • \"\nTimeout: 5000ms",
+      "screenshots": [
+        "reports/2026-10-30_10-39-40/screenshots/SC-08.01-JRA-Supervisor-finds-the-Submitter-s-assessment-and-01-I-am-logged-into-Salesforce-as-a-sales-agent.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-08.01-JRA-Supervisor-finds-the-Submitter-s-assessment-and-02-I-am-logged-in-as-jraSubmitter-through-Setup.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-08.01-JRA-Supervisor-finds-the-Submitter-s-assessment-and-03-I-have-created-a-Job-Risk-Assessment-from-submittedAssessmen.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-08.01-JRA-Supervisor-finds-the-Submitter-s-assessment-and-04-I-am-logged-in-as-jraSupervisor-through-Setup.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-08.01-JRA-Supervisor-finds-the-Submitter-s-assessment-and-05-I-search-the-All-list-for-the-created-assessment.png",
+        "reports/2026-10-30_10-39-40/screenshots/FAIL-SC-08.01-JRA-Supervisor-finds-the-Submitter-s-assessment-and-FAIL-only-the-created-assessment-is-listed.png"
+      ]
+    },
+    {
+      "name": "SC-08.02 JRA Supervisor sees an empty Audit Approval section before approval",
+      "feature": "US-08 JRA Supervisor opens the submitted assessment and sees the same values",
+      "file": ".features-gen/features/job-risk-assessment/US-08-supervisor-opens-submitted-assessment.feature.spec.js",
+      "line": 22,
+      "project": "bdd",
+      "tags": [
+        "@US-08",
+        "@SC-08.02",
+        "@AC-08.4",
+        "@P2",
+        "@positive",
+        "@regression"
+      ],
+      "status": "failed",
+      "durationMs": 21847,
+      "retries": 0,
+      "steps": {
+        "total": 2,
+        "passed": 1,
+        "failed": 1,
+        "skipped": 0
+      },
+      "failedStep": "And I am logged in as \"jraSubmitter\" through Setup",
+      "error": "Error: apiRequestContext._wrapApiCall: file data stream has unexpected number of bytes",
+      "screenshots": [
+        "reports/2026-10-30_10-39-40/screenshots/SC-08.02-JRA-Supervisor-sees-an-empty-Audit-Approval-section-01-I-am-logged-into-Salesforce-as-a-sales-agent.png",
+        "reports/2026-10-30_10-39-40/screenshots/FAIL-SC-08.02-JRA-Supervisor-sees-an-empty-Audit-Approval-section-FAIL-I-am-logged-in-as-jraSubmitter-through-Setup.png"
+      ]
+    },
+    {
+      "name": "SC-06.03 JRA Submitter is not offered Approve Assessment on the record page",
+      "feature": "US-06 JRA Submitter creates a Job Risk Assessment and keeps its ID",
+      "file": ".features-gen/features/job-risk-assessment/US-06-submitter-creates-job-risk-assessment.feature.spec.js",
+      "line": 32,
+      "project": "bdd",
+      "tags": [
+        "@US-06",
+        "@SC-06.03",
+        "@AC-06.6",
+        "@P2",
+        "@negative",
+        "@regression"
+      ],
+      "status": "failed",
+      "durationMs": 55370,
+      "retries": 0,
+      "steps": {
+        "total": 2,
+        "passed": 1,
+        "failed": 1,
+        "skipped": 0
+      },
+      "failedStep": "And I am logged in as \"jraSubmitter\" through Setup",
+      "error": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n  - waiting for getByRole('searchbox', { name: 'Quick Find' }) to be visible\n",
+      "screenshots": [
+        "reports/2026-10-30_10-39-40/screenshots/SC-06.03-JRA-Submitter-is-not-offered-Approve-Assessment-on--01-I-am-logged-into-Salesforce-as-a-sales-agent.png",
+        "reports/2026-10-30_10-39-40/screenshots/FAIL-SC-06.03-JRA-Submitter-is-not-offered-Approve-Assessment-on--FAIL-I-am-logged-in-as-jraSubmitter-through-Setup.png"
+      ]
+    },
+    {
+      "name": "SC-09.01 JRA Supervisor approves the assessment and sees the PDF and e-mail confirmation with the dummy Submitter Email",
+      "feature": "US-09 JRA Supervisor approves the assessment",
+      "file": ".features-gen/features/job-risk-assessment/US-09-supervisor-approves-assessment.feature.spec.js",
+      "line": 16,
+      "project": "bdd",
+      "tags": [
+        "@US-09",
+        "@SC-09.01",
+        "@AC-09.1",
+        "@AC-09.2",
+        "@AC-09.3",
+        "@P1",
+        "@positive",
+        "@smoke",
+        "@regression"
+      ],
+      "status": "failed",
+      "durationMs": 51680,
+      "retries": 0,
+      "steps": {
+        "total": 2,
+        "passed": 1,
+        "failed": 1,
+        "skipped": 0
+      },
+      "failedStep": "And I am logged in as \"jraSubmitter\" through Setup",
+      "error": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n  - waiting for getByRole('link', { name: 'Log out as Test Script test', exact: true })\n",
+      "screenshots": [
+        "reports/2026-10-30_10-39-40/screenshots/SC-09.01-JRA-Supervisor-approves-the-assessment-and-sees-the-01-I-am-logged-into-Salesforce-as-a-sales-agent.png",
+        "reports/2026-10-30_10-39-40/screenshots/FAIL-SC-09.01-JRA-Supervisor-approves-the-assessment-and-sees-the-FAIL-I-am-logged-in-as-jraSubmitter-through-Setup.png"
+      ]
+    },
+    {
+      "name": "SC-10.01 JRA Supervisor opens the approved PDF in Files from the approval dialog",
+      "feature": "US-10 Open the approved PDF in Files",
+      "file": ".features-gen/features/job-risk-assessment/US-10-open-approved-pdf-in-files.feature.spec.js",
+      "line": 16,
+      "project": "bdd",
+      "tags": [
+        "@US-10",
+        "@SC-10.01",
+        "@AC-10.1",
+        "@AC-10.2",
+        "@P2",
+        "@positive",
+        "@regression"
+      ],
+      "status": "failed",
+      "durationMs": 54005,
+      "retries": 0,
+      "steps": {
+        "total": 2,
+        "passed": 1,
+        "failed": 1,
+        "skipped": 0
+      },
+      "failedStep": "And I am logged in as \"jraSubmitter\" through Setup",
+      "error": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n  - waiting for getByRole('link', { name: 'Log out as Test Script test', exact: true })\n",
+      "screenshots": [
+        "reports/2026-10-30_10-39-40/screenshots/SC-10.01-JRA-Supervisor-opens-the-approved-PDF-in-Files-from-01-I-am-logged-into-Salesforce-as-a-sales-agent.png",
+        "reports/2026-10-30_10-39-40/screenshots/FAIL-SC-10.01-JRA-Supervisor-opens-the-approved-PDF-in-Files-from-FAIL-I-am-logged-in-as-jraSubmitter-through-Setup.png"
+      ]
+    },
+    {
+      "name": "SC-11.01 Submitter submits, Supervisor verifies, approves and opens the approved PDF",
+      "feature": "US-11 End-to-end - Submitter submits, Supervisor approves the same assessment",
+      "file": ".features-gen/features/job-risk-assessment/US-11-e2e-submitter-supervisor-approval.feature.spec.js",
+      "line": 10,
+      "project": "bdd",
+      "tags": [
+        "@US-11",
+        "@SC-11.01",
+        "@AC-11.1",
+        "@AC-11.2",
+        "@AC-11.3",
+        "@AC-11.4",
+        "@P1",
+        "@e2e",
+        "@smoke",
+        "@regression"
+      ],
+      "status": "failed",
+      "durationMs": 11986,
+      "retries": 0,
+      "steps": {
+        "total": 2,
+        "passed": 1,
+        "failed": 1,
+        "skipped": 0
+      },
+      "failedStep": "Given I am logged in as \"jraSubmitter\" through Setup",
+      "error": "TimeoutError: locator.elementHandle: Timeout 2000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: 'Setup', exact: true })\n",
+      "screenshots": [
+        "reports/2026-10-30_10-39-40/screenshots/SC-11.01-Submitter-submits-Supervisor-verifies-approves-and--01-I-am-logged-into-Salesforce-as-a-sales-agent.png",
+        "reports/2026-10-30_10-39-40/screenshots/FAIL-SC-11.01-Submitter-submits-Supervisor-verifies-approves-and--FAIL-I-am-logged-in-as-jraSubmitter-through-Setup.png"
+      ]
+    },
+    {
+      "name": "SC-09.02 JRA Supervisor re-approves an already approved assessment",
+      "feature": "US-09 JRA Supervisor approves the assessment",
+      "file": ".features-gen/features/job-risk-assessment/US-09-supervisor-approves-assessment.feature.spec.js",
+      "line": 21,
+      "project": "bdd",
+      "tags": [
+        "@US-09",
+        "@SC-09.02",
+        "@AC-09.4",
+        "@P2",
+        "@boundary",
+        "@regression"
+      ],
+      "status": "passed",
+      "durationMs": 52637,
+      "retries": 0,
+      "steps": {
+        "total": 11,
+        "passed": 11,
+        "failed": 0,
+        "skipped": 0
+      },
+      "screenshots": [
+        "reports/2026-10-30_10-39-40/screenshots/SC-09.02-JRA-Supervisor-re-approves-an-already-approved-asse-01-I-am-logged-into-Salesforce-as-a-sales-agent.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-09.02-JRA-Supervisor-re-approves-an-already-approved-asse-02-I-am-logged-in-as-jraSubmitter-through-Setup.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-09.02-JRA-Supervisor-re-approves-an-already-approved-asse-03-I-have-created-a-Job-Risk-Assessment-from-submittedAssessmen.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-09.02-JRA-Supervisor-re-approves-an-already-approved-asse-04-I-am-logged-in-as-jraSupervisor-through-Setup.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-09.02-JRA-Supervisor-re-approves-an-already-approved-asse-05-I-search-the-All-list-for-the-created-assessment.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-09.02-JRA-Supervisor-re-approves-an-already-approved-asse-06-only-the-created-assessment-is-listed.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-09.02-JRA-Supervisor-re-approves-an-already-approved-asse-07-I-open-the-created-assessment-from-the-list.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-09.02-JRA-Supervisor-re-approves-an-already-approved-asse-08-I-approve-the-assessment.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-09.02-JRA-Supervisor-re-approves-an-already-approved-asse-09-I-close-the-approval-dialog.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-09.02-JRA-Supervisor-re-approves-an-already-approved-asse-10-I-approve-the-assessment.png",
+        "reports/2026-10-30_10-39-40/screenshots/SC-09.02-JRA-Supervisor-re-approves-an-already-approved-asse-11-the-approval-toast-and-dialog-show-approvalMessage-for-the-S.png"
+      ]
+    }
+  ]
+}

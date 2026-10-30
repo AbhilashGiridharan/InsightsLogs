@@ -1,0 +1,603 @@
+2026-10-30 10:39:40.867 [INFO] RUN START: 22 test(s) · feature "job-risk-assessment" · run 2026-10-30_10-39-40
+2026-10-30 10:39:43.879 [INFO] ▶ SCENARIO START: "SC-01.01 Open Job Risk Assessments from the App Launcher and see the Recently Viewed list"
+2026-10-30 10:39:43.879 [INFO] ▶ SCENARIO START: "SC-02.01 Create a Job Risk Assessment with all fields and verify the saved record"
+2026-10-30 10:39:43.880 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:39:43.880 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:39:43.882 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:39:43.882 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:39:45.729 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:39:46.063 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:39:47.475 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.01-Create-a-Job-Risk-Assessment-with-all-fields-and-ve-01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:39:47.475 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:39:47.482 [INFO]   ▷ STEP: I am on the Job Risk Assessments list view
+2026-10-30 10:39:50.044 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.01-Create-a-Job-Risk-Assessment-with-all-fields-and-ve-02-I-am-on-the-Job-Risk-Assessments-list-view.png – after "I am on the Job Risk Assessments list view"
+2026-10-30 10:39:50.045 [INFO]   ✔ STEP OK: I am on the Job Risk Assessments list view
+2026-10-30 10:39:50.046 [INFO]   ▷ STEP: I open the New Job Risk Assessment form
+2026-10-30 10:39:52.816 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.01-Create-a-Job-Risk-Assessment-with-all-fields-and-ve-03-I-open-the-New-Job-Risk-Assessment-form.png – after "I open the New Job Risk Assessment form"
+2026-10-30 10:39:52.816 [INFO]   ✔ STEP OK: I open the New Job Risk Assessment form
+2026-10-30 10:39:52.819 [INFO]   ▷ STEP: the New Job Risk Assessment form shows the "Information" section with the Owner pre-filled
+2026-10-30 10:39:52.994 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.01-Create-a-Job-Risk-Assessment-with-all-fields-and-ve-04-the-New-Job-Risk-Assessment-form-shows-the-Information-secti.png – after "the New Job Risk Assessment form shows the "Information" section with the Owner pre-filled"
+2026-10-30 10:39:52.995 [INFO]   ✔ STEP OK: the New Job Risk Assessment form shows the "Information" section with the Owner pre-filled
+2026-10-30 10:39:52.998 [INFO]   ▷ STEP: I fill the form with "assessmentA" and click "Save"
+2026-10-30 10:39:53.702 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-01.01-Open-Job-Risk-Assessments-from-the-App-Launcher-and-01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:39:53.703 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:39:53.778 [INFO]   ▷ STEP: I open Job Risk Assessments from the App Launcher
+2026-10-30 10:39:54.816 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.01-Create-a-Job-Risk-Assessment-with-all-fields-and-ve-05-I-fill-the-form-with-assessmentA-and-click-Save.png – after "I fill the form with "assessmentA" and click "Save""
+2026-10-30 10:39:54.816 [INFO]   ✔ STEP OK: I fill the form with "assessmentA" and click "Save"
+2026-10-30 10:39:54.823 [INFO]   ▷ STEP: the success message for the created assessment is shown
+2026-10-30 10:39:54.910 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.01-Create-a-Job-Risk-Assessment-with-all-fields-and-ve-06-the-success-message-for-the-created-assessment-is-shown.png – after "the success message for the created assessment is shown"
+2026-10-30 10:39:54.910 [INFO]   ✔ STEP OK: the success message for the created assessment is shown
+2026-10-30 10:39:54.912 [INFO]   ▷ STEP: the record page of the created assessment is displayed
+2026-10-30 10:39:55.035 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.01-Create-a-Job-Risk-Assessment-with-all-fields-and-ve-07-the-record-page-of-the-created-assessment-is-displayed.png – after "the record page of the created assessment is displayed"
+2026-10-30 10:39:55.035 [INFO]   ✔ STEP OK: the record page of the created assessment is displayed
+2026-10-30 10:39:55.036 [INFO]   ▷ STEP: the Details tab shows the values of "assessmentA"
+2026-10-30 10:39:55.224 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.01-Create-a-Job-Risk-Assessment-with-all-fields-and-ve-08-the-Details-tab-shows-the-values-of-assessmentA.png – after "the Details tab shows the values of "assessmentA""
+2026-10-30 10:39:55.225 [INFO]   ✔ STEP OK: the Details tab shows the values of "assessmentA"
+2026-10-30 10:39:55.269 [INFO] ✔ SCENARIO PASSED: "SC-02.01 Create a Job Risk Assessment with all fields and verify the saved record"
+2026-10-30 10:39:55.279 [INFO] ▶ SCENARIO START: "SC-02.02 Create a Job Risk Assessment with the alternative values and verify the saved record"
+2026-10-30 10:39:55.280 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:39:55.280 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:39:56.027 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:39:58.300 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-01.01-Open-Job-Risk-Assessments-from-the-App-Launcher-and-02-I-open-Job-Risk-Assessments-from-the-App-Launcher.png – after "I open Job Risk Assessments from the App Launcher"
+2026-10-30 10:39:58.300 [INFO]   ✔ STEP OK: I open Job Risk Assessments from the App Launcher
+2026-10-30 10:39:58.303 [INFO]   ▷ STEP: the "Recently Viewed" list view of Job Risk Assessments is displayed
+2026-10-30 10:39:58.647 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-01.01-Open-Job-Risk-Assessments-from-the-App-Launcher-and-03-the-Recently-Viewed-list-view-of-Job-Risk-Assessments-is-dis.png – after "the "Recently Viewed" list view of Job Risk Assessments is displayed"
+2026-10-30 10:39:58.648 [INFO]   ✔ STEP OK: the "Recently Viewed" list view of Job Risk Assessments is displayed
+2026-10-30 10:39:58.653 [INFO]   ▷ STEP: the "Recently Viewed" list shows the "Job Risk Assesment Name" column and an item count
+2026-10-30 10:39:58.769 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-01.01-Open-Job-Risk-Assessments-from-the-App-Launcher-and-04-the-Recently-Viewed-list-shows-the-Job-Risk-Assesment-Name-c.png – after "the "Recently Viewed" list shows the "Job Risk Assesment Name" column and an item count"
+2026-10-30 10:39:58.769 [INFO]   ✔ STEP OK: the "Recently Viewed" list shows the "Job Risk Assesment Name" column and an item count
+2026-10-30 10:39:58.772 [INFO]   ▷ STEP: the list view offers the buttons "New", "Import", "Change Owner" and "Assign Label"
+2026-10-30 10:39:58.914 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-01.01-Open-Job-Risk-Assessments-from-the-App-Launcher-and-05-the-list-view-offers-the-buttons-New-Import-Change-Owner-and.png – after "the list view offers the buttons "New", "Import", "Change Owner" and "Assign Label""
+2026-10-30 10:39:58.914 [INFO]   ✔ STEP OK: the list view offers the buttons "New", "Import", "Change Owner" and "Assign Label"
+2026-10-30 10:39:58.966 [INFO] ✔ SCENARIO PASSED: "SC-01.01 Open Job Risk Assessments from the App Launcher and see the Recently Viewed list"
+2026-10-30 10:39:58.975 [INFO] ▶ SCENARIO START: "SC-01.02 Search the list for a created assessment and open its record page"
+2026-10-30 10:39:58.975 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:39:58.976 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:39:59.730 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.02-Create-a-Job-Risk-Assessment-with-the-alternative-v-01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:39:59.735 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:39:59.738 [INFO]   ▷ STEP: I have created a Job Risk Assessment from "assessmentB"
+2026-10-30 10:39:59.747 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:40:04.579 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-01.02-Search-the-list-for-a-created-assessment-and-open-i-01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:40:04.579 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:40:04.581 [INFO]   ▷ STEP: I have created a Job Risk Assessment from "assessmentA"
+2026-10-30 10:40:10.439 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-01.02-Search-the-list-for-a-created-assessment-and-open-i-02-I-have-created-a-Job-Risk-Assessment-from-assessmentA.png – after "I have created a Job Risk Assessment from "assessmentA""
+2026-10-30 10:40:10.439 [INFO]   ✔ STEP OK: I have created a Job Risk Assessment from "assessmentA"
+2026-10-30 10:40:10.443 [INFO]   ▷ STEP: I search the "Recently Viewed" list for the created assessment
+2026-10-30 10:40:12.052 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-01.02-Search-the-list-for-a-created-assessment-and-open-i-03-I-search-the-Recently-Viewed-list-for-the-created-assessment.png – after "I search the "Recently Viewed" list for the created assessment"
+2026-10-30 10:40:12.053 [INFO]   ✔ STEP OK: I search the "Recently Viewed" list for the created assessment
+2026-10-30 10:40:12.055 [INFO]   ▷ STEP: only the created assessment is listed
+2026-10-30 10:40:12.305 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-01.02-Search-the-list-for-a-created-assessment-and-open-i-04-only-the-created-assessment-is-listed.png – after "only the created assessment is listed"
+2026-10-30 10:40:12.305 [INFO]   ✔ STEP OK: only the created assessment is listed
+2026-10-30 10:40:12.307 [INFO]   ▷ STEP: I open the created assessment from the list
+2026-10-30 10:40:12.636 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-01.02-Search-the-list-for-a-created-assessment-and-open-i-05-I-open-the-created-assessment-from-the-list.png – after "I open the created assessment from the list"
+2026-10-30 10:40:12.636 [INFO]   ✔ STEP OK: I open the created assessment from the list
+2026-10-30 10:40:12.638 [INFO]   ▷ STEP: the record page of the created assessment is displayed
+2026-10-30 10:40:12.746 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-01.02-Search-the-list-for-a-created-assessment-and-open-i-06-the-record-page-of-the-created-assessment-is-displayed.png – after "the record page of the created assessment is displayed"
+2026-10-30 10:40:12.747 [INFO]   ✔ STEP OK: the record page of the created assessment is displayed
+2026-10-30 10:40:12.792 [INFO] ✔ SCENARIO PASSED: "SC-01.02 Search the list for a created assessment and open its record page"
+2026-10-30 10:40:12.821 [INFO] ▶ SCENARIO START: "SC-03.01 Record page header and Details tab show all fields with the record's values"
+2026-10-30 10:40:12.822 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:40:12.822 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:40:13.492 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:40:15.805 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-03.01-Record-page-header-and-Details-tab-show-all-fields--01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:40:15.805 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:40:15.809 [INFO]   ▷ STEP: I have created a Job Risk Assessment from "assessmentA"
+2026-10-30 10:40:20.223 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-03.01-Record-page-header-and-Details-tab-show-all-fields--02-I-have-created-a-Job-Risk-Assessment-from-assessmentA.png – after "I have created a Job Risk Assessment from "assessmentA""
+2026-10-30 10:40:20.223 [INFO]   ✔ STEP OK: I have created a Job Risk Assessment from "assessmentA"
+2026-10-30 10:40:20.225 [INFO]   ▷ STEP: the record page header shows "Job Risk Assessment" and the created assessment name
+2026-10-30 10:40:20.308 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-03.01-Record-page-header-and-Details-tab-show-all-fields--03-the-record-page-header-shows-Job-Risk-Assessment-and-the-cre.png – after "the record page header shows "Job Risk Assessment" and the created assessment name"
+2026-10-30 10:40:20.309 [INFO]   ✔ STEP OK: the record page header shows "Job Risk Assessment" and the created assessment name
+2026-10-30 10:40:20.310 [INFO]   ▷ STEP: the Details tab shows the fields of "detailsLayout"
+2026-10-30 10:40:20.532 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-03.01-Record-page-header-and-Details-tab-show-all-fields--04-the-Details-tab-shows-the-fields-of-detailsLayout.png – after "the Details tab shows the fields of "detailsLayout""
+2026-10-30 10:40:20.532 [INFO]   ✔ STEP OK: the Details tab shows the fields of "detailsLayout"
+2026-10-30 10:40:20.533 [INFO]   ▷ STEP: the Details tab shows the values of "assessmentA"
+2026-10-30 10:40:20.674 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-03.01-Record-page-header-and-Details-tab-show-all-fields--05-the-Details-tab-shows-the-values-of-assessmentA.png – after "the Details tab shows the values of "assessmentA""
+2026-10-30 10:40:20.674 [INFO]   ✔ STEP OK: the Details tab shows the values of "assessmentA"
+2026-10-30 10:40:20.675 [INFO]   ▷ STEP: the Owner, Created By and Last Modified By show the current user
+2026-10-30 10:40:20.784 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-03.01-Record-page-header-and-Details-tab-show-all-fields--06-the-Owner-Created-By-and-Last-Modified-By-show-the-current-u.png – after "the Owner, Created By and Last Modified By show the current user"
+2026-10-30 10:40:20.784 [INFO]   ✔ STEP OK: the Owner, Created By and Last Modified By show the current user
+2026-10-30 10:40:20.835 [INFO] ✔ SCENARIO PASSED: "SC-03.01 Record page header and Details tab show all fields with the record's values"
+2026-10-30 10:40:20.843 [INFO] ▶ SCENARIO START: "SC-03.02 Record page offers the actions, the Related tab and the Activity panel"
+2026-10-30 10:40:20.845 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:40:20.845 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:40:21.605 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:40:23.507 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-03.02-Record-page-offers-the-actions-the-Related-tab-and--01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:40:23.507 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:40:23.508 [INFO]   ▷ STEP: I have created a Job Risk Assessment from "assessmentA"
+2026-10-30 10:40:29.855 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-03.02-Record-page-offers-the-actions-the-Related-tab-and--02-I-have-created-a-Job-Risk-Assessment-from-assessmentA.png – after "I have created a Job Risk Assessment from "assessmentA""
+2026-10-30 10:40:29.855 [INFO]   ✔ STEP OK: I have created a Job Risk Assessment from "assessmentA"
+2026-10-30 10:40:29.857 [INFO]   ▷ STEP: the record page offers the actions "Generate Assessment", "New Contact" and "New Opportunity"
+2026-10-30 10:40:30.106 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-03.02-Record-page-offers-the-actions-the-Related-tab-and--03-the-record-page-offers-the-actions-Generate-Assessment-New-C.png – after "the record page offers the actions "Generate Assessment", "New Contact" and "New Opportunity""
+2026-10-30 10:40:30.107 [INFO]   ✔ STEP OK: the record page offers the actions "Generate Assessment", "New Contact" and "New Opportunity"
+2026-10-30 10:40:30.108 [INFO]   ▷ STEP: the record page shows the "Related" tab and the "Activity" panel
+2026-10-30 10:40:30.191 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-03.02-Record-page-offers-the-actions-the-Related-tab-and--04-the-record-page-shows-the-Related-tab-and-the-Activity-panel.png – after "the record page shows the "Related" tab and the "Activity" panel"
+2026-10-30 10:40:30.192 [INFO]   ✔ STEP OK: the record page shows the "Related" tab and the "Activity" panel
+2026-10-30 10:40:30.236 [INFO] ✔ SCENARIO PASSED: "SC-03.02 Record page offers the actions, the Related tab and the Activity panel"
+2026-10-30 10:40:30.259 [INFO] ▶ SCENARIO START: "SC-04.01 Generate Assessment produces a PDF report for the record"
+2026-10-30 10:40:30.259 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:40:30.260 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:40:30.936 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:40:33.608 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-04.01-Generate-Assessment-produces-a-PDF-report-for-the-r-01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:40:33.608 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:40:33.609 [INFO]   ▷ STEP: I have created a Job Risk Assessment from "assessmentA"
+2026-10-30 10:40:38.575 [ERROR]   ✖ STEP FAILED: I have created a Job Risk Assessment from "assessmentB" | expect(page).toHaveURL(expected) failed
+2026-10-30 10:40:38.642 [ERROR]   📸 Failure screenshot: reports/2026-10-30_10-39-40/screenshots/FAIL-SC-02.02-Create-a-Job-Risk-Assessment-with-the-alternative-v-FAIL-I-have-created-a-Job-Risk-Assessment-from-assessmentB.png
+2026-10-30 10:40:39.055 [ERROR] ✖ SCENARIO FAILED: "SC-02.02 Create a Job Risk Assessment with the alternative values and verify the saved record"
+2026-10-30 10:40:39.056 [ERROR]   Error: Error: expect(page).toHaveURL(expected) failed
+2026-10-30 10:40:39.056 [ERROR] 
+2026-10-30 10:40:39.056 [ERROR] Expected pattern: /\/lightning\/r\/Job_Risk_Assessment__c\/\w+\/view/
+2026-10-30 10:40:39.056 [ERROR] Received string:  "https://zensartechnologiesltd3.lightning.force.com/lightning/r/a0Bf600000I5smzEAB/view"
+2026-10-30 10:40:39.056 [ERROR] Timeout: 30000ms
+2026-10-30 10:40:39.056 [ERROR] 
+2026-10-30 10:40:39.056 [ERROR] Call log:
+2026-10-30 10:40:39.056 [ERROR]   - Expect "toHaveURL" with timeout 30000ms
+2026-10-30 10:40:39.056 [ERROR]     62 × locator resolved to <html dir="ltr" lang="en-US">…</html>
+2026-10-30 10:40:39.056 [ERROR]        - unexpected value "https://zensartechnologiesltd3.lightning.force.com/lightning/r/a0Bf600000I5smzEAB/view"
+2026-10-30 10:40:39.056 [ERROR] 
+2026-10-30 10:40:39.056 [ERROR]     at JobRiskAssessmentPage.verifyRecordPage (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/pages/JobRiskAssessmentPage.ts:439:33)
+2026-10-30 10:40:39.056 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/tasks/CreateJobRiskAssessment.ts:20:41
+2026-10-30 10:40:39.056 [ERROR]     at Actor.attemptsTo (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/actors/Actor.ts:7:9)
+2026-10-30 10:40:39.056 [ERROR]     at Object.<anonymous> (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/features/steps/jobRiskAssessment.steps.ts:91:5)
+2026-10-30 10:40:39.056 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/.features-gen/features/job-risk-assessment/US-02-create-job-risk-assessment.feature.spec.js:21:5
+2026-10-30 10:40:39.089 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-04.01-Generate-Assessment-produces-a-PDF-report-for-the-r-02-I-have-created-a-Job-Risk-Assessment-from-assessmentA.png – after "I have created a Job Risk Assessment from "assessmentA""
+2026-10-30 10:40:39.089 [INFO]   ✔ STEP OK: I have created a Job Risk Assessment from "assessmentA"
+2026-10-30 10:40:39.090 [INFO]   ▷ STEP: I generate the assessment report
+2026-10-30 10:40:40.285 [INFO] ▶ SCENARIO START: "SC-02.03 New form shows all fields, the picklist values and the Owner pre-filled"
+2026-10-30 10:40:40.286 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:40:40.286 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:40:41.479 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:40:41.609 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-04.01-Generate-Assessment-produces-a-PDF-report-for-the-r-03-I-generate-the-assessment-report.png – after "I generate the assessment report"
+2026-10-30 10:40:41.610 [INFO]   ✔ STEP OK: I generate the assessment report
+2026-10-30 10:40:41.612 [INFO]   ▷ STEP: a PDF document is produced for the created assessment
+2026-10-30 10:40:41.618 [ERROR]   ✖ STEP FAILED: a PDF document is produced for the created assessment | expect(received).toContain(expected) // indexOf
+2026-10-30 10:40:41.844 [ERROR]   📸 Failure screenshot: reports/2026-10-30_10-39-40/screenshots/FAIL-SC-04.01-Generate-Assessment-produces-a-PDF-report-for-the-r-FAIL-a-PDF-document-is-produced-for-the-created-assessment.png
+2026-10-30 10:40:42.281 [ERROR] ✖ SCENARIO FAILED: "SC-04.01 Generate Assessment produces a PDF report for the record"
+2026-10-30 10:40:42.281 [ERROR]   Error: Error: expect(received).toContain(expected) // indexOf
+2026-10-30 10:40:42.281 [ERROR] 
+2026-10-30 10:40:42.281 [ERROR] Expected substring: "application/pdf"
+2026-10-30 10:40:42.281 [ERROR] Received string:    "text/html; charset=UTF-8"
+2026-10-30 10:40:42.281 [ERROR]     at Object.<anonymous> (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/features/steps/jobRiskAssessment.steps.ts:196:50)
+2026-10-30 10:40:42.281 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/.features-gen/features/job-risk-assessment/US-04-generate-job-risk-assessment-pdf.feature.spec.js:13:5
+2026-10-30 10:40:43.400 [INFO] ▶ SCENARIO START: "SC-05.01 Admin logs in as the JRA Submitter from Setup > Profiles > View Users"
+2026-10-30 10:40:43.401 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:40:43.401 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:40:44.514 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:40:44.584 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.03-New-form-shows-all-fields-the-picklist-values-and-t-01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:40:44.584 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:40:44.588 [INFO]   ▷ STEP: I am on the Job Risk Assessments list view
+2026-10-30 10:40:46.324 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-05.01-Admin-logs-in-as-the-JRA-Submitter-from-Setup-Profi-01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:40:46.324 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:40:46.329 [INFO]   ▷ STEP: I open Setup from the gear menu
+2026-10-30 10:40:46.646 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.03-New-form-shows-all-fields-the-picklist-values-and-t-02-I-am-on-the-Job-Risk-Assessments-list-view.png – after "I am on the Job Risk Assessments list view"
+2026-10-30 10:40:46.647 [INFO]   ✔ STEP OK: I am on the Job Risk Assessments list view
+2026-10-30 10:40:46.648 [INFO]   ▷ STEP: I open the New Job Risk Assessment form
+2026-10-30 10:40:48.745 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.03-New-form-shows-all-fields-the-picklist-values-and-t-03-I-open-the-New-Job-Risk-Assessment-form.png – after "I open the New Job Risk Assessment form"
+2026-10-30 10:40:48.746 [INFO]   ✔ STEP OK: I open the New Job Risk Assessment form
+2026-10-30 10:40:48.749 [INFO]   ▷ STEP: the New Job Risk Assessment form shows the "Information" section with the Owner pre-filled
+2026-10-30 10:40:48.924 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.03-New-form-shows-all-fields-the-picklist-values-and-t-04-the-New-Job-Risk-Assessment-form-shows-the-Information-secti.png – after "the New Job Risk Assessment form shows the "Information" section with the Owner pre-filled"
+2026-10-30 10:40:48.924 [INFO]   ✔ STEP OK: the New Job Risk Assessment form shows the "Information" section with the Owner pre-filled
+2026-10-30 10:40:48.926 [INFO]   ▷ STEP: the form shows the fields of "formLayout"
+2026-10-30 10:40:49.129 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.03-New-form-shows-all-fields-the-picklist-values-and-t-05-the-form-shows-the-fields-of-formLayout.png – after "the form shows the fields of "formLayout""
+2026-10-30 10:40:49.129 [INFO]   ✔ STEP OK: the form shows the fields of "formLayout"
+2026-10-30 10:40:49.131 [INFO]   ▷ STEP: the picklists offer the values of "formLayout"
+2026-10-30 10:40:49.653 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.03-New-form-shows-all-fields-the-picklist-values-and-t-06-the-picklists-offer-the-values-of-formLayout.png – after "the picklists offer the values of "formLayout""
+2026-10-30 10:40:49.653 [INFO]   ✔ STEP OK: the picklists offer the values of "formLayout"
+2026-10-30 10:40:49.654 [INFO]   ▷ STEP: I cancel the New Job Risk Assessment form
+2026-10-30 10:40:50.237 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.03-New-form-shows-all-fields-the-picklist-values-and-t-07-I-cancel-the-New-Job-Risk-Assessment-form.png – after "I cancel the New Job Risk Assessment form"
+2026-10-30 10:40:50.237 [INFO]   ✔ STEP OK: I cancel the New Job Risk Assessment form
+2026-10-30 10:40:50.240 [INFO]   ▷ STEP: the New Job Risk Assessment form is closed
+2026-10-30 10:40:50.246 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-05.01-Admin-logs-in-as-the-JRA-Submitter-from-Setup-Profi-02-I-open-Setup-from-the-gear-menu.png – after "I open Setup from the gear menu"
+2026-10-30 10:40:50.248 [INFO]   ✔ STEP OK: I open Setup from the gear menu
+2026-10-30 10:40:50.251 [INFO]   ▷ STEP: Setup Home welcomes the administrator
+2026-10-30 10:40:50.341 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.03-New-form-shows-all-fields-the-picklist-values-and-t-08-the-New-Job-Risk-Assessment-form-is-closed.png – after "the New Job Risk Assessment form is closed"
+2026-10-30 10:40:50.342 [INFO]   ✔ STEP OK: the New Job Risk Assessment form is closed
+2026-10-30 10:40:50.394 [INFO] ✔ SCENARIO PASSED: "SC-02.03 New form shows all fields, the picklist values and the Owner pre-filled"
+2026-10-30 10:40:50.407 [INFO] ▶ SCENARIO START: "SC-02.04 Save & New creates the record and opens a new, empty form"
+2026-10-30 10:40:50.408 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:40:50.408 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:40:51.190 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:40:53.169 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.04-Save-New-creates-the-record-and-opens-a-new-empty-f-01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:40:53.169 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:40:53.174 [INFO]   ▷ STEP: I am on the Job Risk Assessments list view
+2026-10-30 10:40:53.403 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-05.01-Admin-logs-in-as-the-JRA-Submitter-from-Setup-Profi-03-Setup-Home-welcomes-the-administrator.png – after "Setup Home welcomes the administrator"
+2026-10-30 10:40:53.404 [INFO]   ✔ STEP OK: Setup Home welcomes the administrator
+2026-10-30 10:40:53.405 [INFO]   ▷ STEP: I open Profiles from the Setup Quick Find
+2026-10-30 10:40:55.212 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.04-Save-New-creates-the-record-and-opens-a-new-empty-f-02-I-am-on-the-Job-Risk-Assessments-list-view.png – after "I am on the Job Risk Assessments list view"
+2026-10-30 10:40:55.212 [INFO]   ✔ STEP OK: I am on the Job Risk Assessments list view
+2026-10-30 10:40:55.212 [INFO]   ▷ STEP: I open the New Job Risk Assessment form
+2026-10-30 10:40:57.400 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-05.01-Admin-logs-in-as-the-JRA-Submitter-from-Setup-Profi-04-I-open-Profiles-from-the-Setup-Quick-Find.png – after "I open Profiles from the Setup Quick Find"
+2026-10-30 10:40:57.400 [INFO]   ✔ STEP OK: I open Profiles from the Setup Quick Find
+2026-10-30 10:40:57.403 [INFO]   ▷ STEP: the Profiles list shows the custom profiles of "jraSubmitter" and "jraSupervisor"
+2026-10-30 10:40:57.555 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-05.01-Admin-logs-in-as-the-JRA-Submitter-from-Setup-Profi-05-the-Profiles-list-shows-the-custom-profiles-of-jraSubmitter-.png – after "the Profiles list shows the custom profiles of "jraSubmitter" and "jraSupervisor""
+2026-10-30 10:40:57.556 [INFO]   ✔ STEP OK: the Profiles list shows the custom profiles of "jraSubmitter" and "jraSupervisor"
+2026-10-30 10:40:57.557 [INFO]   ▷ STEP: I open the profile of "jraSubmitter"
+2026-10-30 10:40:58.007 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.04-Save-New-creates-the-record-and-opens-a-new-empty-f-03-I-open-the-New-Job-Risk-Assessment-form.png – after "I open the New Job Risk Assessment form"
+2026-10-30 10:40:58.008 [INFO]   ✔ STEP OK: I open the New Job Risk Assessment form
+2026-10-30 10:40:58.011 [INFO]   ▷ STEP: I fill the form with "assessmentA" and click "Save & New"
+2026-10-30 10:40:59.314 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.04-Save-New-creates-the-record-and-opens-a-new-empty-f-04-I-fill-the-form-with-assessmentA-and-click-Save-New.png – after "I fill the form with "assessmentA" and click "Save & New""
+2026-10-30 10:40:59.315 [INFO]   ✔ STEP OK: I fill the form with "assessmentA" and click "Save & New"
+2026-10-30 10:40:59.317 [INFO]   ▷ STEP: the success message for the created assessment is shown
+2026-10-30 10:40:59.464 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.04-Save-New-creates-the-record-and-opens-a-new-empty-f-05-the-success-message-for-the-created-assessment-is-shown.png – after "the success message for the created assessment is shown"
+2026-10-30 10:40:59.464 [INFO]   ✔ STEP OK: the success message for the created assessment is shown
+2026-10-30 10:40:59.466 [INFO]   ▷ STEP: an empty New Job Risk Assessment form is displayed
+2026-10-30 10:40:59.583 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-05.01-Admin-logs-in-as-the-JRA-Submitter-from-Setup-Profi-06-I-open-the-profile-of-jraSubmitter.png – after "I open the profile of "jraSubmitter""
+2026-10-30 10:40:59.583 [INFO]   ✔ STEP OK: I open the profile of "jraSubmitter"
+2026-10-30 10:40:59.585 [INFO]   ▷ STEP: the profile detail of "jraSubmitter" is displayed
+2026-10-30 10:40:59.760 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.04-Save-New-creates-the-record-and-opens-a-new-empty-f-06-an-empty-New-Job-Risk-Assessment-form-is-displayed.png – after "an empty New Job Risk Assessment form is displayed"
+2026-10-30 10:40:59.760 [INFO]   ✔ STEP OK: an empty New Job Risk Assessment form is displayed
+2026-10-30 10:40:59.761 [INFO]   ▷ STEP: I cancel the New Job Risk Assessment form
+2026-10-30 10:41:00.747 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.04-Save-New-creates-the-record-and-opens-a-new-empty-f-07-I-cancel-the-New-Job-Risk-Assessment-form.png – after "I cancel the New Job Risk Assessment form"
+2026-10-30 10:41:00.747 [INFO]   ✔ STEP OK: I cancel the New Job Risk Assessment form
+2026-10-30 10:41:00.748 [INFO]   ▷ STEP: I search the "All" list for the created assessment
+2026-10-30 10:41:00.928 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-05.01-Admin-logs-in-as-the-JRA-Submitter-from-Setup-Profi-07-the-profile-detail-of-jraSubmitter-is-displayed.png – after "the profile detail of "jraSubmitter" is displayed"
+2026-10-30 10:41:00.928 [INFO]   ✔ STEP OK: the profile detail of "jraSubmitter" is displayed
+2026-10-30 10:41:00.930 [INFO]   ▷ STEP: I view the users of the profile
+2026-10-30 10:41:01.792 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-05.01-Admin-logs-in-as-the-JRA-Submitter-from-Setup-Profi-08-I-view-the-users-of-the-profile.png – after "I view the users of the profile"
+2026-10-30 10:41:01.792 [INFO]   ✔ STEP OK: I view the users of the profile
+2026-10-30 10:41:01.793 [INFO]   ▷ STEP: the users list shows the active user of "jraSubmitter"
+2026-10-30 10:41:01.912 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-05.01-Admin-logs-in-as-the-JRA-Submitter-from-Setup-Profi-09-the-users-list-shows-the-active-user-of-jraSubmitter.png – after "the users list shows the active user of "jraSubmitter""
+2026-10-30 10:41:01.912 [INFO]   ✔ STEP OK: the users list shows the active user of "jraSubmitter"
+2026-10-30 10:41:01.913 [INFO]   ▷ STEP: I log in as the user of "jraSubmitter"
+2026-10-30 10:41:02.555 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.04-Save-New-creates-the-record-and-opens-a-new-empty-f-08-I-search-the-All-list-for-the-created-assessment.png – after "I search the "All" list for the created assessment"
+2026-10-30 10:41:02.556 [INFO]   ✔ STEP OK: I search the "All" list for the created assessment
+2026-10-30 10:41:02.557 [INFO]   ▷ STEP: only the created assessment is listed
+2026-10-30 10:41:04.608 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-05.01-Admin-logs-in-as-the-JRA-Submitter-from-Setup-Profi-10-I-log-in-as-the-user-of-jraSubmitter.png – after "I log in as the user of "jraSubmitter""
+2026-10-30 10:41:04.608 [INFO]   ✔ STEP OK: I log in as the user of "jraSubmitter"
+2026-10-30 10:41:04.610 [INFO]   ▷ STEP: Salesforce shows the Login As banner of "jraSubmitter"
+2026-10-30 10:41:04.660 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-05.01-Admin-logs-in-as-the-JRA-Submitter-from-Setup-Profi-11-Salesforce-shows-the-Login-As-banner-of-jraSubmitter.png – after "Salesforce shows the Login As banner of "jraSubmitter""
+2026-10-30 10:41:04.660 [INFO]   ✔ STEP OK: Salesforce shows the Login As banner of "jraSubmitter"
+2026-10-30 10:41:04.704 [INFO] ✔ SCENARIO PASSED: "SC-05.01 Admin logs in as the JRA Submitter from Setup > Profiles > View Users"
+2026-10-30 10:41:04.716 [INFO] ▶ SCENARIO START: "SC-05.02 Admin logs in as the JRA Supervisor from Setup > Profiles > View Users"
+2026-10-30 10:41:04.719 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:41:04.720 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:41:05.487 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:41:07.118 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-05.02-Admin-logs-in-as-the-JRA-Supervisor-from-Setup-Prof-01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:41:07.119 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:41:07.120 [INFO]   ▷ STEP: I open Setup from the gear menu
+2026-10-30 10:41:07.589 [ERROR]   ✖ STEP FAILED: only the created assessment is listed | expect(locator).toHaveText(expected) failed
+2026-10-30 10:41:07.646 [ERROR]   📸 Failure screenshot: reports/2026-10-30_10-39-40/screenshots/FAIL-SC-02.04-Save-New-creates-the-record-and-opens-a-new-empty-f-FAIL-only-the-created-assessment-is-listed.png
+2026-10-30 10:41:08.175 [ERROR] ✖ SCENARIO FAILED: "SC-02.04 Save & New creates the record and opens a new, empty form"
+2026-10-30 10:41:08.176 [ERROR]   Error: Error: expect(locator).toHaveText(expected) failed
+2026-10-30 10:41:08.176 [ERROR] 
+2026-10-30 10:41:08.176 [ERROR] Locator: getByRole('status', { name: 'All' })
+2026-10-30 10:41:08.176 [ERROR] Expected pattern: /^1 item •/
+2026-10-30 10:41:08.176 [ERROR] Received string:  "50+ items • Sorted by Job Risk Assesment Name • "
+2026-10-30 10:41:08.176 [ERROR] Timeout: 5000ms
+2026-10-30 10:41:08.176 [ERROR] 
+2026-10-30 10:41:08.176 [ERROR] Call log:
+2026-10-30 10:41:08.176 [ERROR]   - Expect "toHaveText" with timeout 5000ms
+2026-10-30 10:41:08.176 [ERROR]   - waiting for getByRole('status', { name: 'All' })
+2026-10-30 10:41:08.176 [ERROR]     2 × locator resolved to <span role="status" aria-label="All" aria-live="polite" class="countSortedByFilteredBy">50+ items • Sorted by Job Risk Assesment Name • </span>
+2026-10-30 10:41:08.176 [ERROR]       - unexpected value "50+ items • Sorted by Job Risk Assesment Name • "
+2026-10-30 10:41:08.176 [ERROR]     - waiting for "https://zensartechnologiesltd3.my.salesforce.com/?ec=301&startURL=%2Fvisualforce%2Fsession%3Furl%3Dhttps%253A%252F%252Fzensartechnologiesltd3.lightning.force.com%252Flightning%252Fo%252FJob_Risk_Asse…" navigation to finish...
+2026-10-30 10:41:08.176 [ERROR]     - navigated to "https://zensartechnologiesltd3.lightning.force.com/lightning/o/Job_Risk_Assessment__c/list?filterName=All"
+2026-10-30 10:41:08.176 [ERROR]     8 × locator resolved to <span role="status" aria-label="All" aria-live="polite" class="countSortedByFilteredBy">50+ items • Sorted by Job Risk Assesment Name • </span>
+2026-10-30 10:41:08.176 [ERROR]       - unexpected value "50+ items • Sorted by Job Risk Assesment Name • "
+2026-10-30 10:41:08.176 [ERROR] 
+2026-10-30 10:41:08.176 [ERROR]     at JobRiskAssessmentPage.verifyOnlyRecordListed (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/pages/JobRiskAssessmentPage.ts:329:52)
+2026-10-30 10:41:08.176 [ERROR]     at Object.<anonymous> (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/features/steps/jobRiskAssessment.steps.ts:77:56)
+2026-10-30 10:41:08.176 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/.features-gen/features/job-risk-assessment/US-02-create-job-risk-assessment.feature.spec.js:44:5
+2026-10-30 10:41:09.565 [INFO] ▶ SCENARIO START: "SC-02.05 Cancel closes the New form without creating a record"
+2026-10-30 10:41:09.566 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:41:09.567 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:41:10.731 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:41:10.754 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-05.02-Admin-logs-in-as-the-JRA-Supervisor-from-Setup-Prof-02-I-open-Setup-from-the-gear-menu.png – after "I open Setup from the gear menu"
+2026-10-30 10:41:10.755 [INFO]   ✔ STEP OK: I open Setup from the gear menu
+2026-10-30 10:41:10.758 [INFO]   ▷ STEP: Setup Home welcomes the administrator
+2026-10-30 10:41:13.971 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-05.02-Admin-logs-in-as-the-JRA-Supervisor-from-Setup-Prof-03-Setup-Home-welcomes-the-administrator.png – after "Setup Home welcomes the administrator"
+2026-10-30 10:41:13.971 [INFO]   ✔ STEP OK: Setup Home welcomes the administrator
+2026-10-30 10:41:13.972 [INFO]   ▷ STEP: I open Profiles from the Setup Quick Find
+2026-10-30 10:41:14.774 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.05-Cancel-closes-the-New-form-without-creating-a-recor-01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:41:14.774 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:41:14.778 [INFO]   ▷ STEP: I am on the Job Risk Assessments list view
+2026-10-30 10:41:18.335 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.05-Cancel-closes-the-New-form-without-creating-a-recor-02-I-am-on-the-Job-Risk-Assessments-list-view.png – after "I am on the Job Risk Assessments list view"
+2026-10-30 10:41:18.336 [INFO]   ✔ STEP OK: I am on the Job Risk Assessments list view
+2026-10-30 10:41:18.337 [INFO]   ▷ STEP: I open the New Job Risk Assessment form
+2026-10-30 10:41:20.073 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-05.02-Admin-logs-in-as-the-JRA-Supervisor-from-Setup-Prof-04-I-open-Profiles-from-the-Setup-Quick-Find.png – after "I open Profiles from the Setup Quick Find"
+2026-10-30 10:41:20.073 [INFO]   ✔ STEP OK: I open Profiles from the Setup Quick Find
+2026-10-30 10:41:20.074 [INFO]   ▷ STEP: the Profiles list shows the custom profiles of "jraSubmitter" and "jraSupervisor"
+2026-10-30 10:41:20.977 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-05.02-Admin-logs-in-as-the-JRA-Supervisor-from-Setup-Prof-05-the-Profiles-list-shows-the-custom-profiles-of-jraSubmitter-.png – after "the Profiles list shows the custom profiles of "jraSubmitter" and "jraSupervisor""
+2026-10-30 10:41:20.977 [INFO]   ✔ STEP OK: the Profiles list shows the custom profiles of "jraSubmitter" and "jraSupervisor"
+2026-10-30 10:41:20.978 [INFO]   ▷ STEP: I open the profile of "jraSupervisor"
+2026-10-30 10:41:21.139 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.05-Cancel-closes-the-New-form-without-creating-a-recor-03-I-open-the-New-Job-Risk-Assessment-form.png – after "I open the New Job Risk Assessment form"
+2026-10-30 10:41:21.142 [INFO]   ✔ STEP OK: I open the New Job Risk Assessment form
+2026-10-30 10:41:21.148 [INFO]   ▷ STEP: I fill the form with "assessmentCancel" without saving
+2026-10-30 10:41:21.728 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.05-Cancel-closes-the-New-form-without-creating-a-recor-04-I-fill-the-form-with-assessmentCancel-without-saving.png – after "I fill the form with "assessmentCancel" without saving"
+2026-10-30 10:41:21.728 [INFO]   ✔ STEP OK: I fill the form with "assessmentCancel" without saving
+2026-10-30 10:41:21.730 [INFO]   ▷ STEP: I cancel the New Job Risk Assessment form
+2026-10-30 10:41:22.685 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.05-Cancel-closes-the-New-form-without-creating-a-recor-05-I-cancel-the-New-Job-Risk-Assessment-form.png – after "I cancel the New Job Risk Assessment form"
+2026-10-30 10:41:22.685 [INFO]   ✔ STEP OK: I cancel the New Job Risk Assessment form
+2026-10-30 10:41:22.688 [INFO]   ▷ STEP: the New Job Risk Assessment form is closed without a success message
+2026-10-30 10:41:22.768 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.05-Cancel-closes-the-New-form-without-creating-a-recor-06-the-New-Job-Risk-Assessment-form-is-closed-without-a-success.png – after "the New Job Risk Assessment form is closed without a success message"
+2026-10-30 10:41:22.769 [INFO]   ✔ STEP OK: the New Job Risk Assessment form is closed without a success message
+2026-10-30 10:41:22.771 [INFO]   ▷ STEP: I search the "All" list for the cancelled assessment
+2026-10-30 10:41:22.937 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-05.02-Admin-logs-in-as-the-JRA-Supervisor-from-Setup-Prof-06-I-open-the-profile-of-jraSupervisor.png – after "I open the profile of "jraSupervisor""
+2026-10-30 10:41:22.937 [INFO]   ✔ STEP OK: I open the profile of "jraSupervisor"
+2026-10-30 10:41:22.938 [INFO]   ▷ STEP: I view the users of the profile
+2026-10-30 10:41:24.279 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-05.02-Admin-logs-in-as-the-JRA-Supervisor-from-Setup-Prof-07-I-view-the-users-of-the-profile.png – after "I view the users of the profile"
+2026-10-30 10:41:24.279 [INFO]   ✔ STEP OK: I view the users of the profile
+2026-10-30 10:41:24.280 [INFO]   ▷ STEP: the users list shows the active user of "jraSupervisor"
+2026-10-30 10:41:24.430 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-05.02-Admin-logs-in-as-the-JRA-Supervisor-from-Setup-Prof-08-the-users-list-shows-the-active-user-of-jraSupervisor.png – after "the users list shows the active user of "jraSupervisor""
+2026-10-30 10:41:24.430 [INFO]   ✔ STEP OK: the users list shows the active user of "jraSupervisor"
+2026-10-30 10:41:24.431 [INFO]   ▷ STEP: I log in as the user of "jraSupervisor"
+2026-10-30 10:41:24.475 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.05-Cancel-closes-the-New-form-without-creating-a-recor-07-I-search-the-All-list-for-the-cancelled-assessment.png – after "I search the "All" list for the cancelled assessment"
+2026-10-30 10:41:24.475 [INFO]   ✔ STEP OK: I search the "All" list for the cancelled assessment
+2026-10-30 10:41:24.477 [INFO]   ▷ STEP: the list shows "0 items" and the message "Nothing to see here"
+2026-10-30 10:41:24.549 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.05-Cancel-closes-the-New-form-without-creating-a-recor-08-the-list-shows-0-items-and-the-message-Nothing-to-see-here.png – after "the list shows "0 items" and the message "Nothing to see here""
+2026-10-30 10:41:24.549 [INFO]   ✔ STEP OK: the list shows "0 items" and the message "Nothing to see here"
+2026-10-30 10:41:24.595 [INFO] ✔ SCENARIO PASSED: "SC-02.05 Cancel closes the New form without creating a record"
+2026-10-30 10:41:24.604 [INFO] ▶ SCENARIO START: "SC-02.06 Saving an empty New form is blocked with an error and creates no record"
+2026-10-30 10:41:24.607 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:41:24.608 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:41:25.306 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:41:26.702 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-05.02-Admin-logs-in-as-the-JRA-Supervisor-from-Setup-Prof-09-I-log-in-as-the-user-of-jraSupervisor.png – after "I log in as the user of "jraSupervisor""
+2026-10-30 10:41:26.702 [INFO]   ✔ STEP OK: I log in as the user of "jraSupervisor"
+2026-10-30 10:41:26.704 [INFO]   ▷ STEP: Salesforce shows the Login As banner of "jraSupervisor"
+2026-10-30 10:41:26.834 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-05.02-Admin-logs-in-as-the-JRA-Supervisor-from-Setup-Prof-10-Salesforce-shows-the-Login-As-banner-of-jraSupervisor.png – after "Salesforce shows the Login As banner of "jraSupervisor""
+2026-10-30 10:41:26.834 [INFO]   ✔ STEP OK: Salesforce shows the Login As banner of "jraSupervisor"
+2026-10-30 10:41:27.144 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.06-Saving-an-empty-New-form-is-blocked-with-an-error-a-01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:41:27.144 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:41:27.146 [INFO]   ▷ STEP: I am on the Job Risk Assessments list view
+2026-10-30 10:41:27.452 [INFO] ✔ SCENARIO PASSED: "SC-05.02 Admin logs in as the JRA Supervisor from Setup > Profiles > View Users"
+2026-10-30 10:41:27.489 [INFO] ▶ SCENARIO START: "SC-06.01 JRA Submitter creates a Job Risk Assessment and keeps its RA number"
+2026-10-30 10:41:27.489 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:41:27.490 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:41:28.355 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:41:28.811 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.06-Saving-an-empty-New-form-is-blocked-with-an-error-a-02-I-am-on-the-Job-Risk-Assessments-list-view.png – after "I am on the Job Risk Assessments list view"
+2026-10-30 10:41:28.813 [INFO]   ✔ STEP OK: I am on the Job Risk Assessments list view
+2026-10-30 10:41:28.815 [INFO]   ▷ STEP: I open the New Job Risk Assessment form
+2026-10-30 10:41:31.040 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.06-Saving-an-empty-New-form-is-blocked-with-an-error-a-03-I-open-the-New-Job-Risk-Assessment-form.png – after "I open the New Job Risk Assessment form"
+2026-10-30 10:41:31.040 [INFO]   ✔ STEP OK: I open the New Job Risk Assessment form
+2026-10-30 10:41:31.042 [INFO]   ▷ STEP: I save the New Job Risk Assessment form without entering any values
+2026-10-30 10:41:31.227 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-02.06-Saving-an-empty-New-form-is-blocked-with-an-error-a-04-I-save-the-New-Job-Risk-Assessment-form-without-entering-any.png – after "I save the New Job Risk Assessment form without entering any values"
+2026-10-30 10:41:31.227 [INFO]   ✔ STEP OK: I save the New Job Risk Assessment form without entering any values
+2026-10-30 10:41:31.228 [INFO]   ▷ STEP: saving is blocked with an error and no Job Risk Assessment is created
+2026-10-30 10:41:31.276 [ERROR]   ✖ STEP FAILED: saving is blocked with an error and no Job Risk Assessment is created | Saving an empty Job Risk Assessment form must be blocked with an error
+2026-10-30 10:41:31.378 [ERROR]   📸 Failure screenshot: reports/2026-10-30_10-39-40/screenshots/FAIL-SC-02.06-Saving-an-empty-New-form-is-blocked-with-an-error-a-FAIL-saving-is-blocked-with-an-error-and-no-Job-Risk-Assessment-i.png
+2026-10-30 10:41:31.516 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-06.01-JRA-Submitter-creates-a-Job-Risk-Assessment-and-kee-01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:41:31.516 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:41:31.519 [INFO]   ▷ STEP: I am logged in as "jraSubmitter" through Setup
+2026-10-30 10:41:31.937 [ERROR] ✖ SCENARIO FAILED: "SC-02.06 Saving an empty New form is blocked with an error and creates no record"
+2026-10-30 10:41:31.938 [ERROR]   Error: Error: Saving an empty Job Risk Assessment form must be blocked with an error
+2026-10-30 10:41:31.938 [ERROR] 
+2026-10-30 10:41:31.938 [ERROR] expect(received).toBe(expected) // Object.is equality
+2026-10-30 10:41:31.938 [ERROR] 
+2026-10-30 10:41:31.938 [ERROR] Expected: "save blocked"
+2026-10-30 10:41:31.938 [ERROR] Received: "record created"
+2026-10-30 10:41:31.938 [ERROR]     at JobRiskAssessmentPage.verifySaveBlocked (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/pages/JobRiskAssessmentPage.ts:432:99)
+2026-10-30 10:41:31.938 [ERROR]     at Object.<anonymous> (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/features/steps/jobRiskAssessment.steps.ts:155:5)
+2026-10-30 10:41:31.938 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/.features-gen/features/job-risk-assessment/US-02-create-job-risk-assessment.feature.spec.js:61:5
+2026-10-30 10:41:33.344 [INFO] ▶ SCENARIO START: "SC-08.01 JRA Supervisor finds the Submitter's assessment and sees the same values and approval actions"
+2026-10-30 10:41:33.345 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:41:33.347 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:41:35.206 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:41:37.712 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-08.01-JRA-Supervisor-finds-the-Submitter-s-assessment-and-01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:41:37.713 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:41:37.718 [INFO]   ▷ STEP: I am logged in as "jraSubmitter" through Setup
+2026-10-30 10:41:55.238 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-06.01-JRA-Submitter-creates-a-Job-Risk-Assessment-and-kee-02-I-am-logged-in-as-jraSubmitter-through-Setup.png – after "I am logged in as "jraSubmitter" through Setup"
+2026-10-30 10:41:55.239 [INFO]   ✔ STEP OK: I am logged in as "jraSubmitter" through Setup
+2026-10-30 10:41:55.240 [INFO]   ▷ STEP: I open Job Risk Assessments from the App Launcher
+2026-10-30 10:41:57.455 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-06.01-JRA-Submitter-creates-a-Job-Risk-Assessment-and-kee-03-I-open-Job-Risk-Assessments-from-the-App-Launcher.png – after "I open Job Risk Assessments from the App Launcher"
+2026-10-30 10:41:57.455 [INFO]   ✔ STEP OK: I open Job Risk Assessments from the App Launcher
+2026-10-30 10:41:57.457 [INFO]   ▷ STEP: the "Recently Viewed" list view of Job Risk Assessments is displayed
+2026-10-30 10:41:57.556 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-06.01-JRA-Submitter-creates-a-Job-Risk-Assessment-and-kee-04-the-Recently-Viewed-list-view-of-Job-Risk-Assessments-is-dis.png – after "the "Recently Viewed" list view of Job Risk Assessments is displayed"
+2026-10-30 10:41:57.556 [INFO]   ✔ STEP OK: the "Recently Viewed" list view of Job Risk Assessments is displayed
+2026-10-30 10:41:57.558 [INFO]   ▷ STEP: I open the New Job Risk Assessment form
+2026-10-30 10:41:58.161 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-06.01-JRA-Submitter-creates-a-Job-Risk-Assessment-and-kee-05-I-open-the-New-Job-Risk-Assessment-form.png – after "I open the New Job Risk Assessment form"
+2026-10-30 10:41:58.161 [INFO]   ✔ STEP OK: I open the New Job Risk Assessment form
+2026-10-30 10:41:58.163 [INFO]   ▷ STEP: I fill the form with "submittedAssessment" and click "Save"
+2026-10-30 10:41:59.589 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-06.01-JRA-Submitter-creates-a-Job-Risk-Assessment-and-kee-06-I-fill-the-form-with-submittedAssessment-and-click-Save.png – after "I fill the form with "submittedAssessment" and click "Save""
+2026-10-30 10:41:59.589 [INFO]   ✔ STEP OK: I fill the form with "submittedAssessment" and click "Save"
+2026-10-30 10:41:59.591 [INFO]   ▷ STEP: the success message for the created assessment is shown
+2026-10-30 10:41:59.664 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-06.01-JRA-Submitter-creates-a-Job-Risk-Assessment-and-kee-07-the-success-message-for-the-created-assessment-is-shown.png – after "the success message for the created assessment is shown"
+2026-10-30 10:41:59.664 [INFO]   ✔ STEP OK: the success message for the created assessment is shown
+2026-10-30 10:41:59.665 [INFO]   ▷ STEP: the record page of the created assessment is displayed
+2026-10-30 10:41:59.794 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-06.01-JRA-Submitter-creates-a-Job-Risk-Assessment-and-kee-08-the-record-page-of-the-created-assessment-is-displayed.png – after "the record page of the created assessment is displayed"
+2026-10-30 10:41:59.794 [INFO]   ✔ STEP OK: the record page of the created assessment is displayed
+2026-10-30 10:41:59.796 [INFO]   ▷ STEP: the Details tab shows the values of "submittedAssessment"
+2026-10-30 10:42:00.044 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-06.01-JRA-Submitter-creates-a-Job-Risk-Assessment-and-kee-09-the-Details-tab-shows-the-values-of-submittedAssessment.png – after "the Details tab shows the values of "submittedAssessment""
+2026-10-30 10:42:00.045 [INFO]   ✔ STEP OK: the Details tab shows the values of "submittedAssessment"
+2026-10-30 10:42:00.046 [INFO]   ▷ STEP: the record fields "Owner, Created By, Last Modified By" show the user of "jraSubmitter"
+2026-10-30 10:42:00.131 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-06.01-JRA-Submitter-creates-a-Job-Risk-Assessment-and-kee-10-the-record-fields-Owner-Created-By-Last-Modified-By-show-the.png – after "the record fields "Owner, Created By, Last Modified By" show the user of "jraSubmitter""
+2026-10-30 10:42:00.131 [INFO]   ✔ STEP OK: the record fields "Owner, Created By, Last Modified By" show the user of "jraSubmitter"
+2026-10-30 10:42:00.188 [INFO] ✔ SCENARIO PASSED: "SC-06.01 JRA Submitter creates a Job Risk Assessment and keeps its RA number"
+2026-10-30 10:42:00.198 [INFO] ▶ SCENARIO START: "SC-06.02 JRA Submitter sees the New form sections, fields, picklists and defaults"
+2026-10-30 10:42:00.200 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:42:00.201 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:42:01.079 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:42:02.745 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-08.01-JRA-Supervisor-finds-the-Submitter-s-assessment-and-02-I-am-logged-in-as-jraSubmitter-through-Setup.png – after "I am logged in as "jraSubmitter" through Setup"
+2026-10-30 10:42:02.748 [INFO]   ✔ STEP OK: I am logged in as "jraSubmitter" through Setup
+2026-10-30 10:42:02.752 [INFO]   ▷ STEP: I have created a Job Risk Assessment from "submittedAssessment"
+2026-10-30 10:42:02.805 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-06.02-JRA-Submitter-sees-the-New-form-sections-fields-pic-01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:42:02.805 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:42:02.806 [INFO]   ▷ STEP: I am logged in as "jraSubmitter" through Setup
+2026-10-30 10:42:07.268 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-08.01-JRA-Supervisor-finds-the-Submitter-s-assessment-and-03-I-have-created-a-Job-Risk-Assessment-from-submittedAssessmen.png – after "I have created a Job Risk Assessment from "submittedAssessment""
+2026-10-30 10:42:07.268 [INFO]   ✔ STEP OK: I have created a Job Risk Assessment from "submittedAssessment"
+2026-10-30 10:42:07.269 [INFO]   ▷ STEP: I am logged in as "jraSupervisor" through Setup
+2026-10-30 10:42:26.093 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-06.02-JRA-Submitter-sees-the-New-form-sections-fields-pic-02-I-am-logged-in-as-jraSubmitter-through-Setup.png – after "I am logged in as "jraSubmitter" through Setup"
+2026-10-30 10:42:26.093 [INFO]   ✔ STEP OK: I am logged in as "jraSubmitter" through Setup
+2026-10-30 10:42:26.095 [INFO]   ▷ STEP: I am on the Job Risk Assessments list view
+2026-10-30 10:42:26.663 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-08.01-JRA-Supervisor-finds-the-Submitter-s-assessment-and-04-I-am-logged-in-as-jraSupervisor-through-Setup.png – after "I am logged in as "jraSupervisor" through Setup"
+2026-10-30 10:42:26.664 [INFO]   ✔ STEP OK: I am logged in as "jraSupervisor" through Setup
+2026-10-30 10:42:26.666 [INFO]   ▷ STEP: I search the "All" list for the created assessment
+2026-10-30 10:42:28.021 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-06.02-JRA-Submitter-sees-the-New-form-sections-fields-pic-03-I-am-on-the-Job-Risk-Assessments-list-view.png – after "I am on the Job Risk Assessments list view"
+2026-10-30 10:42:28.021 [INFO]   ✔ STEP OK: I am on the Job Risk Assessments list view
+2026-10-30 10:42:28.022 [INFO]   ▷ STEP: I open the New Job Risk Assessment form
+2026-10-30 10:42:28.808 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-08.01-JRA-Supervisor-finds-the-Submitter-s-assessment-and-05-I-search-the-All-list-for-the-created-assessment.png – after "I search the "All" list for the created assessment"
+2026-10-30 10:42:28.808 [INFO]   ✔ STEP OK: I search the "All" list for the created assessment
+2026-10-30 10:42:28.811 [INFO]   ▷ STEP: only the created assessment is listed
+2026-10-30 10:42:29.052 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-06.02-JRA-Submitter-sees-the-New-form-sections-fields-pic-04-I-open-the-New-Job-Risk-Assessment-form.png – after "I open the New Job Risk Assessment form"
+2026-10-30 10:42:29.053 [INFO]   ✔ STEP OK: I open the New Job Risk Assessment form
+2026-10-30 10:42:29.054 [INFO]   ▷ STEP: the New form shows the sections and defaults of "submitterFormLayout" with the user of "jraSubmitter" as Owner
+2026-10-30 10:42:29.203 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-06.02-JRA-Submitter-sees-the-New-form-sections-fields-pic-05-the-New-form-shows-the-sections-and-defaults-of-submitterFor.png – after "the New form shows the sections and defaults of "submitterFormLayout" with the user of "jraSubmitter" as Owner"
+2026-10-30 10:42:29.203 [INFO]   ✔ STEP OK: the New form shows the sections and defaults of "submitterFormLayout" with the user of "jraSubmitter" as Owner
+2026-10-30 10:42:29.204 [INFO]   ▷ STEP: the form shows the fields of "submitterFormLayout"
+2026-10-30 10:42:29.429 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-06.02-JRA-Submitter-sees-the-New-form-sections-fields-pic-06-the-form-shows-the-fields-of-submitterFormLayout.png – after "the form shows the fields of "submitterFormLayout""
+2026-10-30 10:42:29.429 [INFO]   ✔ STEP OK: the form shows the fields of "submitterFormLayout"
+2026-10-30 10:42:29.430 [INFO]   ▷ STEP: the picklists offer the values of "submitterFormLayout"
+2026-10-30 10:42:29.796 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-06.02-JRA-Submitter-sees-the-New-form-sections-fields-pic-07-the-picklists-offer-the-values-of-submitterFormLayout.png – after "the picklists offer the values of "submitterFormLayout""
+2026-10-30 10:42:29.796 [INFO]   ✔ STEP OK: the picklists offer the values of "submitterFormLayout"
+2026-10-30 10:42:29.797 [INFO]   ▷ STEP: I cancel the New Job Risk Assessment form
+2026-10-30 10:42:30.760 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-06.02-JRA-Submitter-sees-the-New-form-sections-fields-pic-08-I-cancel-the-New-Job-Risk-Assessment-form.png – after "I cancel the New Job Risk Assessment form"
+2026-10-30 10:42:30.762 [INFO]   ✔ STEP OK: I cancel the New Job Risk Assessment form
+2026-10-30 10:42:30.763 [INFO]   ▷ STEP: the New Job Risk Assessment form is closed
+2026-10-30 10:42:30.820 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-06.02-JRA-Submitter-sees-the-New-form-sections-fields-pic-09-the-New-Job-Risk-Assessment-form-is-closed.png – after "the New Job Risk Assessment form is closed"
+2026-10-30 10:42:30.820 [INFO]   ✔ STEP OK: the New Job Risk Assessment form is closed
+2026-10-30 10:42:30.855 [INFO] ✔ SCENARIO PASSED: "SC-06.02 JRA Submitter sees the New form sections, fields, picklists and defaults"
+2026-10-30 10:42:30.861 [INFO] ▶ SCENARIO START: "SC-06.03 JRA Submitter is not offered Approve Assessment on the record page"
+2026-10-30 10:42:30.863 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:42:30.864 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:42:31.718 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:42:33.834 [ERROR]   ✖ STEP FAILED: only the created assessment is listed | expect(locator).toHaveText(expected) failed
+2026-10-30 10:42:33.888 [ERROR]   📸 Failure screenshot: reports/2026-10-30_10-39-40/screenshots/FAIL-SC-08.01-JRA-Supervisor-finds-the-Submitter-s-assessment-and-FAIL-only-the-created-assessment-is-listed.png
+2026-10-30 10:42:34.361 [ERROR] ✖ SCENARIO FAILED: "SC-08.01 JRA Supervisor finds the Submitter's assessment and sees the same values and approval actions"
+2026-10-30 10:42:34.361 [ERROR]   Error: Error: expect(locator).toHaveText(expected) failed
+2026-10-30 10:42:34.361 [ERROR] 
+2026-10-30 10:42:34.361 [ERROR] Locator: getByRole('status', { name: 'All' })
+2026-10-30 10:42:34.361 [ERROR] Expected pattern: /^1 item •/
+2026-10-30 10:42:34.361 [ERROR] Received string:  "0 items • Sorted by Job Risk Assesment Name • "
+2026-10-30 10:42:34.361 [ERROR] Timeout: 5000ms
+2026-10-30 10:42:34.361 [ERROR] 
+2026-10-30 10:42:34.361 [ERROR] Call log:
+2026-10-30 10:42:34.361 [ERROR]   - Expect "toHaveText" with timeout 5000ms
+2026-10-30 10:42:34.361 [ERROR]   - waiting for getByRole('status', { name: 'All' })
+2026-10-30 10:42:34.361 [ERROR]     12 × locator resolved to <span role="status" aria-label="All" aria-live="polite" class="countSortedByFilteredBy">0 items • Sorted by Job Risk Assesment Name • </span>
+2026-10-30 10:42:34.361 [ERROR]        - unexpected value "0 items • Sorted by Job Risk Assesment Name • "
+2026-10-30 10:42:34.361 [ERROR]     - found getByRole('dialog').filter({ hasText: 'to go to prompt in-app guidance' }), intercepting action to run the handler
+2026-10-30 10:42:34.361 [ERROR]     - locator handler has finished
+2026-10-30 10:42:34.361 [ERROR]     - interception handler has finished, continuing
+2026-10-30 10:42:34.361 [ERROR]     2 × locator resolved to <span role="status" aria-label="All" aria-live="polite" class="countSortedByFilteredBy">0 items • Sorted by Job Risk Assesment Name • </span>
+2026-10-30 10:42:34.361 [ERROR]       - unexpected value "0 items • Sorted by Job Risk Assesment Name • "
+2026-10-30 10:42:34.361 [ERROR] 
+2026-10-30 10:42:34.361 [ERROR]     at JobRiskAssessmentPage.verifyOnlyRecordListed (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/pages/JobRiskAssessmentPage.ts:329:52)
+2026-10-30 10:42:34.361 [ERROR]     at Object.<anonymous> (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/features/steps/jobRiskAssessment.steps.ts:77:56)
+2026-10-30 10:42:34.361 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/.features-gen/features/job-risk-assessment/US-08-supervisor-opens-submitted-assessment.feature.spec.js:12:5
+2026-10-30 10:42:36.350 [INFO] ▶ SCENARIO START: "SC-08.02 JRA Supervisor sees an empty Audit Approval section before approval"
+2026-10-30 10:42:36.351 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:42:36.351 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:42:37.527 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:42:39.130 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-08.02-JRA-Supervisor-sees-an-empty-Audit-Approval-section-01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:42:39.131 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:42:39.136 [INFO]   ▷ STEP: I am logged in as "jraSubmitter" through Setup
+2026-10-30 10:42:49.123 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-06.03-JRA-Submitter-is-not-offered-Approve-Assessment-on--01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:42:49.124 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:42:49.126 [INFO]   ▷ STEP: I am logged in as "jraSubmitter" through Setup
+2026-10-30 10:42:57.464 [ERROR]   ✖ STEP FAILED: I am logged in as "jraSubmitter" through Setup | apiRequestContext._wrapApiCall: file data stream has unexpected number of bytes
+2026-10-30 10:42:57.688 [ERROR]   📸 Failure screenshot: reports/2026-10-30_10-39-40/screenshots/FAIL-SC-08.02-JRA-Supervisor-sees-an-empty-Audit-Approval-section-FAIL-I-am-logged-in-as-jraSubmitter-through-Setup.png
+2026-10-30 10:42:58.428 [ERROR] ✖ SCENARIO FAILED: "SC-08.02 JRA Supervisor sees an empty Audit Approval section before approval"
+2026-10-30 10:42:58.428 [ERROR]   Error: Error: apiRequestContext._wrapApiCall: file data stream has unexpected number of bytes
+2026-10-30 10:42:58.428 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/tasks/SwitchToLoginAsUser.ts:25:38
+2026-10-30 10:42:58.428 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/tasks/LoginAsProfileUser.ts:26:13
+2026-10-30 10:42:58.428 [ERROR]     at Actor.attemptsTo (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/actors/Actor.ts:7:9)
+2026-10-30 10:42:58.428 [ERROR]     at Object.<anonymous> (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/features/steps/jobRiskAssessment.steps.ts:203:5)
+2026-10-30 10:42:58.428 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/.features-gen/features/job-risk-assessment/US-08-supervisor-opens-submitted-assessment.feature.spec.js:8:5
+2026-10-30 10:42:59.649 [INFO] ▶ SCENARIO START: "SC-09.01 JRA Supervisor approves the assessment and sees the PDF and e-mail confirmation with the dummy Submitter Email"
+2026-10-30 10:42:59.652 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:42:59.653 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:43:00.976 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:43:02.645 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-09.01-JRA-Supervisor-approves-the-assessment-and-sees-the-01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:43:02.645 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:43:02.652 [INFO]   ▷ STEP: I am logged in as "jraSubmitter" through Setup
+2026-10-30 10:43:25.752 [ERROR]   ✖ STEP FAILED: I am logged in as "jraSubmitter" through Setup | locator.waitFor: Timeout 30000ms exceeded.
+2026-10-30 10:43:25.902 [ERROR]   📸 Failure screenshot: reports/2026-10-30_10-39-40/screenshots/FAIL-SC-06.03-JRA-Submitter-is-not-offered-Approve-Assessment-on--FAIL-I-am-logged-in-as-jraSubmitter-through-Setup.png
+2026-10-30 10:43:26.233 [ERROR] ✖ SCENARIO FAILED: "SC-06.03 JRA Submitter is not offered Approve Assessment on the record page"
+2026-10-30 10:43:26.234 [ERROR]   Error: TimeoutError: locator.waitFor: Timeout 30000ms exceeded.
+2026-10-30 10:43:26.234 [ERROR] Call log:
+2026-10-30 10:43:26.234 [ERROR]   - waiting for getByRole('searchbox', { name: 'Quick Find' }) to be visible
+2026-10-30 10:43:26.234 [ERROR] 
+2026-10-30 10:43:26.234 [ERROR]     at SetupPage.openProfilesFromQuickFind (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/pages/SetupPage.ts:69:14)
+2026-10-30 10:43:26.234 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/tasks/LoginAsProfileUser.ts:22:29
+2026-10-30 10:43:26.234 [ERROR]     at Actor.attemptsTo (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/actors/Actor.ts:7:9)
+2026-10-30 10:43:26.234 [ERROR]     at Object.<anonymous> (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/features/steps/jobRiskAssessment.steps.ts:203:5)
+2026-10-30 10:43:26.234 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/.features-gen/features/job-risk-assessment/US-06-submitter-creates-job-risk-assessment.feature.spec.js:8:5
+2026-10-30 10:43:27.883 [INFO] ▶ SCENARIO START: "SC-10.01 JRA Supervisor opens the approved PDF in Files from the approval dialog"
+2026-10-30 10:43:27.890 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:43:27.893 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:43:29.091 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:43:30.709 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-10.01-JRA-Supervisor-opens-the-approved-PDF-in-Files-from-01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:43:30.709 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:43:30.712 [INFO]   ▷ STEP: I am logged in as "jraSubmitter" through Setup
+2026-10-30 10:43:51.174 [ERROR]   ✖ STEP FAILED: I am logged in as "jraSubmitter" through Setup | locator.waitFor: Timeout 30000ms exceeded.
+2026-10-30 10:43:51.346 [ERROR]   📸 Failure screenshot: reports/2026-10-30_10-39-40/screenshots/FAIL-SC-09.01-JRA-Supervisor-approves-the-assessment-and-sees-the-FAIL-I-am-logged-in-as-jraSubmitter-through-Setup.png
+2026-10-30 10:43:51.822 [ERROR] ✖ SCENARIO FAILED: "SC-09.01 JRA Supervisor approves the assessment and sees the PDF and e-mail confirmation with the dummy Submitter Email"
+2026-10-30 10:43:51.822 [ERROR]   Error: TimeoutError: locator.waitFor: Timeout 30000ms exceeded.
+2026-10-30 10:43:51.822 [ERROR] Call log:
+2026-10-30 10:43:51.822 [ERROR]   - waiting for getByRole('link', { name: 'Log out as Test Script test', exact: true })
+2026-10-30 10:43:51.822 [ERROR] 
+2026-10-30 10:43:51.822 [ERROR]     at HomePage.waitForLoggedInAs (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/pages/HomePage.ts:68:14)
+2026-10-30 10:43:51.822 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/tasks/SwitchToLoginAsUser.ts:17:45
+2026-10-30 10:43:51.822 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/tasks/LoginAsProfileUser.ts:26:13
+2026-10-30 10:43:51.822 [ERROR]     at Actor.attemptsTo (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/actors/Actor.ts:7:9)
+2026-10-30 10:43:51.822 [ERROR]     at Object.<anonymous> (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/features/steps/jobRiskAssessment.steps.ts:247:3)
+2026-10-30 10:43:51.822 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/.features-gen/features/job-risk-assessment/US-09-supervisor-approves-assessment.feature.spec.js:8:5
+2026-10-30 10:43:53.101 [INFO] ▶ SCENARIO START: "SC-09.02 JRA Supervisor re-approves an already approved assessment"
+2026-10-30 10:43:53.102 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:43:53.102 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:43:54.304 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:43:55.848 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-09.02-JRA-Supervisor-re-approves-an-already-approved-asse-01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:43:55.848 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:43:55.857 [INFO]   ▷ STEP: I am logged in as "jraSubmitter" through Setup
+2026-10-30 10:44:13.857 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-09.02-JRA-Supervisor-re-approves-an-already-approved-asse-02-I-am-logged-in-as-jraSubmitter-through-Setup.png – after "I am logged in as "jraSubmitter" through Setup"
+2026-10-30 10:44:13.858 [INFO]   ✔ STEP OK: I am logged in as "jraSubmitter" through Setup
+2026-10-30 10:44:13.860 [INFO]   ▷ STEP: I have created a Job Risk Assessment from "submittedAssessment"
+2026-10-30 10:44:18.066 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-09.02-JRA-Supervisor-re-approves-an-already-approved-asse-03-I-have-created-a-Job-Risk-Assessment-from-submittedAssessmen.png – after "I have created a Job Risk Assessment from "submittedAssessment""
+2026-10-30 10:44:18.066 [INFO]   ✔ STEP OK: I have created a Job Risk Assessment from "submittedAssessment"
+2026-10-30 10:44:18.067 [INFO]   ▷ STEP: I am logged in as "jraSupervisor" through Setup
+2026-10-30 10:44:21.665 [ERROR]   ✖ STEP FAILED: I am logged in as "jraSubmitter" through Setup | locator.waitFor: Timeout 30000ms exceeded.
+2026-10-30 10:44:21.779 [ERROR]   📸 Failure screenshot: reports/2026-10-30_10-39-40/screenshots/FAIL-SC-10.01-JRA-Supervisor-opens-the-approved-PDF-in-Files-from-FAIL-I-am-logged-in-as-jraSubmitter-through-Setup.png
+2026-10-30 10:44:22.091 [ERROR] ✖ SCENARIO FAILED: "SC-10.01 JRA Supervisor opens the approved PDF in Files from the approval dialog"
+2026-10-30 10:44:22.091 [ERROR]   Error: TimeoutError: locator.waitFor: Timeout 30000ms exceeded.
+2026-10-30 10:44:22.091 [ERROR] Call log:
+2026-10-30 10:44:22.091 [ERROR]   - waiting for getByRole('link', { name: 'Log out as Test Script test', exact: true })
+2026-10-30 10:44:22.091 [ERROR] 
+2026-10-30 10:44:22.091 [ERROR]     at HomePage.waitForLoggedInAs (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/pages/HomePage.ts:68:14)
+2026-10-30 10:44:22.091 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/tasks/SwitchToLoginAsUser.ts:17:41
+2026-10-30 10:44:22.091 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/tasks/LoginAsProfileUser.ts:26:13
+2026-10-30 10:44:22.091 [ERROR]     at Actor.attemptsTo (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/actors/Actor.ts:7:9)
+2026-10-30 10:44:22.091 [ERROR]     at Object.<anonymous> (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/features/steps/jobRiskAssessment.steps.ts:203:5)
+2026-10-30 10:44:22.091 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/.features-gen/features/job-risk-assessment/US-10-open-approved-pdf-in-files.feature.spec.js:8:5
+2026-10-30 10:44:24.293 [INFO] ▶ SCENARIO START: "SC-11.01 Submitter submits, Supervisor verifies, approves and opens the approved PDF"
+2026-10-30 10:44:24.295 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-10-30 10:44:24.296 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-10-30 10:44:25.667 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-10-30 10:44:30.379 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-11.01-Submitter-submits-Supervisor-verifies-approves-and--01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-10-30 10:44:30.380 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-10-30 10:44:30.394 [INFO]   ▷ STEP: I am logged in as "jraSubmitter" through Setup
+2026-10-30 10:44:36.007 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-09.02-JRA-Supervisor-re-approves-an-already-approved-asse-04-I-am-logged-in-as-jraSupervisor-through-Setup.png – after "I am logged in as "jraSupervisor" through Setup"
+2026-10-30 10:44:36.008 [INFO]   ✔ STEP OK: I am logged in as "jraSupervisor" through Setup
+2026-10-30 10:44:36.012 [INFO]   ▷ STEP: I search the "All" list for the created assessment
+2026-10-30 10:44:36.131 [ERROR]   ✖ STEP FAILED: I am logged in as "jraSubmitter" through Setup | locator.elementHandle: Timeout 2000ms exceeded.
+2026-10-30 10:44:36.174 [ERROR]   📸 Failure screenshot: reports/2026-10-30_10-39-40/screenshots/FAIL-SC-11.01-Submitter-submits-Supervisor-verifies-approves-and--FAIL-I-am-logged-in-as-jraSubmitter-through-Setup.png
+2026-10-30 10:44:36.521 [ERROR] ✖ SCENARIO FAILED: "SC-11.01 Submitter submits, Supervisor verifies, approves and opens the approved PDF"
+2026-10-30 10:44:36.522 [ERROR]   Error: TimeoutError: locator.elementHandle: Timeout 2000ms exceeded.
+2026-10-30 10:44:36.522 [ERROR] Call log:
+2026-10-30 10:44:36.522 [ERROR]   - waiting for getByRole('button', { name: 'Setup', exact: true })
+2026-10-30 10:44:36.522 [ERROR] 
+2026-10-30 10:44:36.522 [ERROR]     at Function.click (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/self-heal/PlaywrightInterceptor.ts:198:23)
+2026-10-30 10:44:36.522 [ERROR]     at Function.openFromGear (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/pages/SetupPage.ts:28:37)
+2026-10-30 10:44:36.522 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/tasks/LoginAsProfileUser.ts:19:46
+2026-10-30 10:44:36.522 [ERROR]     at Actor.attemptsTo (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/src/actors/Actor.ts:7:9)
+2026-10-30 10:44:36.522 [ERROR]     at Object.<anonymous> (/Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/features/steps/jobRiskAssessment.steps.ts:203:5)
+2026-10-30 10:44:36.522 [ERROR]     at /Users/p.noothan/Documents/CoE_repos/salesforce-playwright-bdd/salesforce-playwright-bdd/.features-gen/features/job-risk-assessment/US-11-e2e-submitter-supervisor-approval.feature.spec.js:11:5
+2026-10-30 10:44:39.180 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-09.02-JRA-Supervisor-re-approves-an-already-approved-asse-05-I-search-the-All-list-for-the-created-assessment.png – after "I search the "All" list for the created assessment"
+2026-10-30 10:44:39.181 [INFO]   ✔ STEP OK: I search the "All" list for the created assessment
+2026-10-30 10:44:39.182 [INFO]   ▷ STEP: only the created assessment is listed
+2026-10-30 10:44:39.234 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-09.02-JRA-Supervisor-re-approves-an-already-approved-asse-06-only-the-created-assessment-is-listed.png – after "only the created assessment is listed"
+2026-10-30 10:44:39.234 [INFO]   ✔ STEP OK: only the created assessment is listed
+2026-10-30 10:44:39.235 [INFO]   ▷ STEP: I open the created assessment from the list
+2026-10-30 10:44:39.570 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-09.02-JRA-Supervisor-re-approves-an-already-approved-asse-07-I-open-the-created-assessment-from-the-list.png – after "I open the created assessment from the list"
+2026-10-30 10:44:39.570 [INFO]   ✔ STEP OK: I open the created assessment from the list
+2026-10-30 10:44:39.571 [INFO]   ▷ STEP: I approve the assessment
+2026-10-30 10:44:44.167 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-09.02-JRA-Supervisor-re-approves-an-already-approved-asse-08-I-approve-the-assessment.png – after "I approve the assessment"
+2026-10-30 10:44:44.167 [INFO]   ✔ STEP OK: I approve the assessment
+2026-10-30 10:44:44.168 [INFO]   ▷ STEP: I close the approval dialog
+2026-10-30 10:44:45.078 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-09.02-JRA-Supervisor-re-approves-an-already-approved-asse-09-I-close-the-approval-dialog.png – after "I close the approval dialog"
+2026-10-30 10:44:45.078 [INFO]   ✔ STEP OK: I close the approval dialog
+2026-10-30 10:44:45.079 [INFO]   ▷ STEP: I approve the assessment
+2026-10-30 10:44:45.862 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-09.02-JRA-Supervisor-re-approves-an-already-approved-asse-10-I-approve-the-assessment.png – after "I approve the assessment"
+2026-10-30 10:44:45.863 [INFO]   ✔ STEP OK: I approve the assessment
+2026-10-30 10:44:45.864 [INFO]   ▷ STEP: the approval toast and dialog show "approvalMessage" for the Submitter Email
+2026-10-30 10:44:45.962 [INFO]   📸 Screenshot: reports/2026-10-30_10-39-40/screenshots/SC-09.02-JRA-Supervisor-re-approves-an-already-approved-asse-11-the-approval-toast-and-dialog-show-approvalMessage-for-the-S.png – after "the approval toast and dialog show "approvalMessage" for the Submitter Email"
+2026-10-30 10:44:45.962 [INFO]   ✔ STEP OK: the approval toast and dialog show "approvalMessage" for the Submitter Email
+2026-10-30 10:44:46.008 [INFO] ✔ SCENARIO PASSED: "SC-09.02 JRA Supervisor re-approves an already approved assessment"
+2026-10-30 10:44:46.455 [INFO] RUN FINISHED: FAILED · 12 passed, 10 failed, 0 skipped, 0 flaky · pass rate 54.55% · 305.7s
