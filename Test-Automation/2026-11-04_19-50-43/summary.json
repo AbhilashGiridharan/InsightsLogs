@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-11-04_19-50-43",
+  "feature": "customer-360",
+  "status": "PASSED",
+  "generatedAt": "2026-11-04T14:22:36.729Z",
+  "environment": {
+    "hostname": "MAINM46ZLPC1890",
+    "os": "Darwin 25.6.0",
+    "platform": "darwin",
+    "arch": "arm64",
+    "node": "v22.23.1",
+    "playwright": "v1.62.1",
+    "browser": "Chromium (Playwright-managed)",
+    "feature": "customer-360",
+    "executedAt": "2026-11-04T14:20:43.885Z"
+  },
+  "metrics": {
+    "runStatus": "passed",
+    "startedAt": "2026-11-04T14:20:43.885Z",
+    "finishedAt": "2026-11-04T14:22:36.729Z",
+    "durationMs": 112749,
+    "scenarios": {
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0
+    },
+    "steps": {
+      "total": 54,
+      "passed": 54,
+      "failed": 0,
+      "skipped": 0
+    },
+    "passRate": 100,
+    "screenshots": 54,
+    "failedScenarios": []
+  }
+}
