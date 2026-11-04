@@ -1,0 +1,61 @@
+{
+  "environment": "E2E",
+  "baseUrl": "https://ombank--e2e.sandbox.lightning.force.com",
+  "status": "VALID",
+  "valid": true,
+  "checkedAt": "2026-11-04T15:24:39.554Z",
+  "info": {
+    "environment": "E2E",
+    "createdAt": "2026-11-04T15:24:21.747Z",
+    "expiresAt": "2026-11-04T17:24:21.747Z",
+    "expiresAtSource": "org session timeout of 120 min (SF_SESSION_TIMEOUT_MINUTES) from login",
+    "orgHost": "ombank--e2e.sandbox.lightning.force.com",
+    "authMode": "sso",
+    "sessionTimeoutMinutes": 120,
+    "authCookies": [
+      {
+        "name": "sid",
+        "domain": "ombank--e2e.sandbox.my.salesforce.com",
+        "expiresAt": "browser session"
+      },
+      {
+        "name": "sid_Client",
+        "domain": "ombank--e2e.sandbox.my.salesforce.com",
+        "expiresAt": "browser session"
+      },
+      {
+        "name": "oid",
+        "domain": "ombank--e2e.sandbox.my.salesforce.com",
+        "expiresAt": "2027-11-04T15:24:00.926Z"
+      },
+      {
+        "name": "sid",
+        "domain": "ombank--e2e.sandbox.file.force.com",
+        "expiresAt": "browser session"
+      },
+      {
+        "name": "sid_Client",
+        "domain": "ombank--e2e.sandbox.file.force.com",
+        "expiresAt": "browser session"
+      },
+      {
+        "name": "inst",
+        "domain": ".force.com",
+        "expiresAt": "browser session"
+      },
+      {
+        "name": "sid",
+        "domain": "ombank--e2e.sandbox.lightning.force.com",
+        "expiresAt": "browser session"
+      },
+      {
+        "name": "sid_Client",
+        "domain": "ombank--e2e.sandbox.lightning.force.com",
+        "expiresAt": "browser session"
+      }
+    ],
+    "cookieCount": 47
+  },
+  "remainingMinutes": 119,
+  "reason": "valid until 2026-11-04T17:24:21.747Z (119 min left, org session timeout of 120 min (SF_SESSION_TIMEOUT_MINUTES) from login)."
+}
