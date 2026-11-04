@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-11-04_20-04-18",
+  "feature": "customer-360",
+  "status": "PASSED",
+  "generatedAt": "2026-11-04T14:36:13.060Z",
+  "environment": {
+    "hostname": "MAINM46ZLPC1890",
+    "os": "Darwin 25.6.0",
+    "platform": "darwin",
+    "arch": "arm64",
+    "node": "v22.23.1",
+    "playwright": "v1.62.1",
+    "browser": "Chromium (Playwright-managed)",
+    "feature": "customer-360",
+    "executedAt": "2026-11-04T14:34:23.690Z"
+  },
+  "authSession": {
+    "status": "VALID",
+    "valid": true,
+    "checkedAt": "2026-11-04T14:34:18.743Z",
+    "info": {
+      "createdAt": "2026-11-04T14:30:01.499Z",
+      "expiresAt": "2026-11-04T16:30:01.499Z",
+      "expiresAtSource": "org session timeout of 120 min (SF_SESSION_TIMEOUT_MINUTES) from login",
+      "orgHost": "ombank--intx.sandbox.lightning.force.com",
+      "authMode": "sso",
+      "sessionTimeoutMinutes": 120,
+      "authCookies": [
+        {
+          "name": "sid",
+          "domain": "ombank--intx.sandbox.my.salesforce.com",
+          "expiresAt": "browser session"
+        },
+        {
+          "name": "sid_Client",
+          "domain": "ombank--intx.sandbox.my.salesforce.com",
+          "expiresAt": "browser session"
+        },
+        {
+          "name": "oid",
+          "domain": "ombank--intx.sandbox.my.salesforce.com",
+          "expiresAt": "2027-11-04T14:29:48.881Z"
+        },
+        {
+          "name": "sid",
+          "domain": "ombank--intx.sandbox.file.force.com",
+          "expiresAt": "browser session"
+        },
+        {
+          "name": "sid_Client",
+          "domain": "ombank--intx.sandbox.file.force.com",
+          "expiresAt": "browser session"
+        },
+        {
+          "name": "inst",
+          "domain": ".force.com",
+          "expiresAt": "browser session"
+        },
+        {
+          "name": "sid",
+          "domain": "ombank--intx.sandbox.lightning.force.com",
+          "expiresAt": "browser session"
+        },
+        {
+          "name": "sid_Client",
+          "domain": "ombank--intx.sandbox.lightning.force.com",
+          "expiresAt": "browser session"
+        }
+      ],
+      "cookieCount": 51
+    },
+    "remainingMinutes": 115,
+    "reason": "valid until 2026-11-04T16:30:01.499Z (115 min left, org session timeout of 120 min (SF_SESSION_TIMEOUT_MINUTES) from login)."
+  },
+  "metrics": {
+    "runStatus": "passed",
+    "startedAt": "2026-11-04T14:34:23.690Z",
+    "finishedAt": "2026-11-04T14:36:13.060Z",
+    "durationMs": 114172,
+    "scenarios": {
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0
+    },
+    "steps": {
+      "total": 54,
+      "passed": 54,
+      "failed": 0,
+      "skipped": 0
+    },
+    "passRate": 100,
+    "screenshots": 54,
+    "failedScenarios": []
+  }
+}

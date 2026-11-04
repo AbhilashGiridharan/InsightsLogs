@@ -1,0 +1,170 @@
+2026-11-04 20:04:23.660 [INFO] 🔐 AUTH SESSION VALID: valid until 2026-11-04T16:30:01.499Z (115 min left, org session timeout of 120 min (SF_SESSION_TIMEOUT_MINUTES) from login).
+2026-11-04 20:04:23.691 [INFO] Removed previous run folder Results/2026-11-04_20-01-50
+2026-11-04 20:04:23.691 [INFO] RUN START: 1 test(s) · feature "customer-360" · run 2026-11-04_20-04-18
+2026-11-04 20:04:24.452 [INFO] ▶ SCENARIO START: "SC-C360.E2E An agent finds a customer and explores every tab and section of the profile"
+2026-11-04 20:04:24.452 [INFO]   💻 OS       : darwin | Node v22.23.1
+2026-11-04 20:04:24.453 [INFO]   🌐 Browser: chromium 151.0.7922.34
+2026-11-04 20:04:25.352 [INFO]   ▷ STEP: I am logged into Salesforce as a sales agent
+2026-11-04 20:04:29.710 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-01-I-am-logged-into-Salesforce-as-a-sales-agent.png – after "I am logged into Salesforce as a sales agent"
+2026-11-04 20:04:29.710 [INFO]   ✔ STEP OK: I am logged into Salesforce as a sales agent
+2026-11-04 20:04:29.713 [INFO]   ▷ STEP: I search for the customer "customerByMobile"
+2026-11-04 20:04:32.819 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-02-I-search-for-the-customer-customerByMobile.png – after "I search for the customer "customerByMobile""
+2026-11-04 20:04:32.819 [INFO]   ✔ STEP OK: I search for the customer "customerByMobile"
+2026-11-04 20:04:32.820 [INFO]   ▷ STEP: the first search result is a recommended Account
+2026-11-04 20:04:32.947 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-03-the-first-search-result-is-a-recommended-Account.png – after "the first search result is a recommended Account"
+2026-11-04 20:04:32.947 [INFO]   ✔ STEP OK: the first search result is a recommended Account
+2026-11-04 20:04:32.949 [INFO]   ▷ STEP: the first account result shows the status of "customerByMobile"
+2026-11-04 20:04:33.044 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-04-the-first-account-result-shows-the-status-of-customerByMobil.png – after "the first account result shows the status of "customerByMobile""
+2026-11-04 20:04:33.044 [INFO]   ✔ STEP OK: the first account result shows the status of "customerByMobile"
+2026-11-04 20:04:33.045 [INFO]   ▷ STEP: I open the first customer in the search results
+2026-11-04 20:04:45.617 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-05-I-open-the-first-customer-in-the-search-results.png – after "I open the first customer in the search results"
+2026-11-04 20:04:45.618 [INFO]   ✔ STEP OK: I open the first customer in the search results
+2026-11-04 20:04:45.619 [INFO]   ▷ STEP: the customer record opens in its own workspace tab
+2026-11-04 20:04:45.759 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-06-the-customer-record-opens-in-its-own-workspace-tab.png – after "the customer record opens in its own workspace tab"
+2026-11-04 20:04:45.759 [INFO]   ✔ STEP OK: the customer record opens in its own workspace tab
+2026-11-04 20:04:45.760 [INFO]   ▷ STEP: the customer header shows the mobile number and status of "customerByMobile"
+2026-11-04 20:04:45.876 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-07-the-customer-header-shows-the-mobile-number-and-status-of-cu.png – after "the customer header shows the mobile number and status of "customerByMobile""
+2026-11-04 20:04:45.876 [INFO]   ✔ STEP OK: the customer header shows the mobile number and status of "customerByMobile"
+2026-11-04 20:04:45.877 [INFO]   ▷ STEP: the customer record shows the record tabs of "customerByMobile"
+2026-11-04 20:04:46.016 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-08-the-customer-record-shows-the-record-tabs-of-customerByMobil.png – after "the customer record shows the record tabs of "customerByMobile""
+2026-11-04 20:04:46.016 [INFO]   ✔ STEP OK: the customer record shows the record tabs of "customerByMobile"
+2026-11-04 20:04:46.017 [INFO]   ▷ STEP: each product section shows as many accounts as its count
+2026-11-04 20:04:50.188 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-09-each-product-section-shows-as-many-accounts-as-its-count.png – after "each product section shows as many accounts as its count"
+2026-11-04 20:04:50.188 [INFO]   ✔ STEP OK: each product section shows as many accounts as its count
+2026-11-04 20:04:50.189 [INFO]   ▷ STEP: every closed account shows a zero or N/A balance
+2026-11-04 20:04:54.335 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-10-every-closed-account-shows-a-zero-or-N-A-balance.png – after "every closed account shows a zero or N/A balance"
+2026-11-04 20:04:54.335 [INFO]   ✔ STEP OK: every closed account shows a zero or N/A balance
+2026-11-04 20:04:54.337 [INFO]   ▷ STEP: the account "activeMoneyAccount" shows a positive balance
+2026-11-04 20:04:58.513 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-11-the-account-activeMoneyAccount-shows-a-positive-balance.png – after "the account "activeMoneyAccount" shows a positive balance"
+2026-11-04 20:04:58.514 [INFO]   ✔ STEP OK: the account "activeMoneyAccount" shows a positive balance
+2026-11-04 20:04:58.514 [INFO]   ▷ STEP: I open the "Details" tab
+2026-11-04 20:04:58.713 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-12-I-open-the-Details-tab.png – after "I open the "Details" tab"
+2026-11-04 20:04:58.713 [INFO]   ✔ STEP OK: I open the "Details" tab
+2026-11-04 20:04:58.714 [INFO]   ▷ STEP: the tab content shows "^Personal Details$"
+2026-11-04 20:04:58.832 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-13-the-tab-content-shows-Personal-Details.png – after "the tab content shows "^Personal Details$""
+2026-11-04 20:04:58.832 [INFO]   ✔ STEP OK: the tab content shows "^Personal Details$"
+2026-11-04 20:04:58.832 [INFO]   ▷ STEP: I open the "Customer Attributes" tab
+2026-11-04 20:04:59.089 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-14-I-open-the-Customer-Attributes-tab.png – after "I open the "Customer Attributes" tab"
+2026-11-04 20:04:59.089 [INFO]   ✔ STEP OK: I open the "Customer Attributes" tab
+2026-11-04 20:04:59.090 [INFO]   ▷ STEP: every customer attribute of "customerByMobile" has a true or false value
+2026-11-04 20:05:00.026 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-15-every-customer-attribute-of-customerByMobile-has-a-true-or-f.png – after "every customer attribute of "customerByMobile" has a true or false value"
+2026-11-04 20:05:00.026 [INFO]   ✔ STEP OK: every customer attribute of "customerByMobile" has a true or false value
+2026-11-04 20:05:00.026 [INFO]   ▷ STEP: I open the "Cases" tab
+2026-11-04 20:05:02.076 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-16-I-open-the-Cases-tab.png – after "I open the "Cases" tab"
+2026-11-04 20:05:02.076 [INFO]   ✔ STEP OK: I open the "Cases" tab
+2026-11-04 20:05:02.077 [INFO]   ▷ STEP: the cases list shows the columns of "customerByMobile"
+2026-11-04 20:05:02.345 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-17-the-cases-list-shows-the-columns-of-customerByMobile.png – after "the cases list shows the columns of "customerByMobile""
+2026-11-04 20:05:02.345 [INFO]   ✔ STEP OK: the cases list shows the columns of "customerByMobile"
+2026-11-04 20:05:02.346 [INFO]   ▷ STEP: the cases list contains cases with the statuses "OPEN, Closed"
+2026-11-04 20:05:03.610 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-18-the-cases-list-contains-cases-with-the-statuses-OPEN-Closed.png – after "the cases list contains cases with the statuses "OPEN, Closed""
+2026-11-04 20:05:03.610 [INFO]   ✔ STEP OK: the cases list contains cases with the statuses "OPEN, Closed"
+2026-11-04 20:05:03.610 [INFO]   ▷ STEP: I open the "Transactions" tab
+2026-11-04 20:05:03.834 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-19-I-open-the-Transactions-tab.png – after "I open the "Transactions" tab"
+2026-11-04 20:05:03.834 [INFO]   ✔ STEP OK: I open the "Transactions" tab
+2026-11-04 20:05:03.835 [INFO]   ▷ STEP: the transactions account selector lists every account from the product sections
+2026-11-04 20:05:09.702 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-20-the-transactions-account-selector-lists-every-account-from-t.png – after "the transactions account selector lists every account from the product sections"
+2026-11-04 20:05:09.703 [INFO]   ✔ STEP OK: the transactions account selector lists every account from the product sections
+2026-11-04 20:05:09.704 [INFO]   ▷ STEP: I select the account "activeMoneyAccount" for transactions
+2026-11-04 20:05:13.455 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-21-I-select-the-account-activeMoneyAccount-for-transactions.png – after "I select the account "activeMoneyAccount" for transactions"
+2026-11-04 20:05:13.456 [INFO]   ✔ STEP OK: I select the account "activeMoneyAccount" for transactions
+2026-11-04 20:05:13.456 [INFO]   ▷ STEP: only transactions of the account "activeMoneyAccount" are listed
+2026-11-04 20:05:14.741 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-22-only-transactions-of-the-account-activeMoneyAccount-are-list.png – after "only transactions of the account "activeMoneyAccount" are listed"
+2026-11-04 20:05:14.741 [INFO]   ✔ STEP OK: only transactions of the account "activeMoneyAccount" are listed
+2026-11-04 20:05:14.742 [INFO]   ▷ STEP: I select the account "closedMoneyAccount" for transactions
+2026-11-04 20:05:18.370 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-23-I-select-the-account-closedMoneyAccount-for-transactions.png – after "I select the account "closedMoneyAccount" for transactions"
+2026-11-04 20:05:18.370 [INFO]   ✔ STEP OK: I select the account "closedMoneyAccount" for transactions
+2026-11-04 20:05:18.371 [INFO]   ▷ STEP: only transactions of the account "closedMoneyAccount" are listed
+2026-11-04 20:05:19.640 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-24-only-transactions-of-the-account-closedMoneyAccount-are-list.png – after "only transactions of the account "closedMoneyAccount" are listed"
+2026-11-04 20:05:19.641 [INFO]   ✔ STEP OK: only transactions of the account "closedMoneyAccount" are listed
+2026-11-04 20:05:19.641 [INFO]   ▷ STEP: I select the account "activeMoneyAccount" for transactions
+2026-11-04 20:05:23.188 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-25-I-select-the-account-activeMoneyAccount-for-transactions.png – after "I select the account "activeMoneyAccount" for transactions"
+2026-11-04 20:05:23.188 [INFO]   ✔ STEP OK: I select the account "activeMoneyAccount" for transactions
+2026-11-04 20:05:23.189 [INFO]   ▷ STEP: I filter the transactions with "creditsOnly"
+2026-11-04 20:05:26.127 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-26-I-filter-the-transactions-with-creditsOnly.png – after "I filter the transactions with "creditsOnly""
+2026-11-04 20:05:26.127 [INFO]   ✔ STEP OK: I filter the transactions with "creditsOnly"
+2026-11-04 20:05:26.129 [INFO]   ▷ STEP: every listed transaction matches the filter "creditsOnly"
+2026-11-04 20:05:27.379 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-27-every-listed-transaction-matches-the-filter-creditsOnly.png – after "every listed transaction matches the filter "creditsOnly""
+2026-11-04 20:05:27.380 [INFO]   ✔ STEP OK: every listed transaction matches the filter "creditsOnly"
+2026-11-04 20:05:27.380 [INFO]   ▷ STEP: I clear the transaction filter
+2026-11-04 20:05:30.154 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-28-I-clear-the-transaction-filter.png – after "I clear the transaction filter"
+2026-11-04 20:05:30.154 [INFO]   ✔ STEP OK: I clear the transaction filter
+2026-11-04 20:05:30.154 [INFO]   ▷ STEP: I filter the transactions with "amount3000To6000"
+2026-11-04 20:05:32.900 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-29-I-filter-the-transactions-with-amount3000To6000.png – after "I filter the transactions with "amount3000To6000""
+2026-11-04 20:05:32.901 [INFO]   ✔ STEP OK: I filter the transactions with "amount3000To6000"
+2026-11-04 20:05:32.901 [INFO]   ▷ STEP: every listed transaction matches the filter "amount3000To6000"
+2026-11-04 20:05:34.206 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-30-every-listed-transaction-matches-the-filter-amount3000To6000.png – after "every listed transaction matches the filter "amount3000To6000""
+2026-11-04 20:05:34.206 [INFO]   ✔ STEP OK: every listed transaction matches the filter "amount3000To6000"
+2026-11-04 20:05:34.207 [INFO]   ▷ STEP: I clear the transaction filter
+2026-11-04 20:05:36.525 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-31-I-clear-the-transaction-filter.png – after "I clear the transaction filter"
+2026-11-04 20:05:36.525 [INFO]   ✔ STEP OK: I clear the transaction filter
+2026-11-04 20:05:36.526 [INFO]   ▷ STEP: I view the details of the first transaction
+2026-11-04 20:05:39.989 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-32-I-view-the-details-of-the-first-transaction.png – after "I view the details of the first transaction"
+2026-11-04 20:05:39.989 [INFO]   ✔ STEP OK: I view the details of the first transaction
+2026-11-04 20:05:39.991 [INFO]   ▷ STEP: the transaction details show their sections and key fields
+2026-11-04 20:05:41.292 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-33-the-transaction-details-show-their-sections-and-key-fields.png – after "the transaction details show their sections and key fields"
+2026-11-04 20:05:41.293 [INFO]   ✔ STEP OK: the transaction details show their sections and key fields
+2026-11-04 20:05:41.293 [INFO]   ▷ STEP: I can close the transaction details
+2026-11-04 20:05:41.613 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-34-I-can-close-the-transaction-details.png – after "I can close the transaction details"
+2026-11-04 20:05:41.614 [INFO]   ✔ STEP OK: I can close the transaction details
+2026-11-04 20:05:41.614 [INFO]   ▷ STEP: I open the "Cards" tab
+2026-11-04 20:05:41.853 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-35-I-open-the-Cards-tab.png – after "I open the "Cards" tab"
+2026-11-04 20:05:41.853 [INFO]   ✔ STEP OK: I open the "Cards" tab
+2026-11-04 20:05:41.854 [INFO]   ▷ STEP: card numbers are masked except for the last four digits
+2026-11-04 20:05:43.984 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-36-card-numbers-are-masked-except-for-the-last-four-digits.png – after "card numbers are masked except for the last four digits"
+2026-11-04 20:05:43.984 [INFO]   ✔ STEP OK: card numbers are masked except for the last four digits
+2026-11-04 20:05:43.985 [INFO]   ▷ STEP: the card menu offers the expected actions
+2026-11-04 20:05:44.355 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-37-the-card-menu-offers-the-expected-actions.png – after "the card menu offers the expected actions"
+2026-11-04 20:05:44.355 [INFO]   ✔ STEP OK: the card menu offers the expected actions
+2026-11-04 20:05:44.356 [INFO]   ▷ STEP: I open the "Documents" tab
+2026-11-04 20:05:44.611 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-38-I-open-the-Documents-tab.png – after "I open the "Documents" tab"
+2026-11-04 20:05:44.612 [INFO]   ✔ STEP OK: I open the "Documents" tab
+2026-11-04 20:05:44.612 [INFO]   ▷ STEP: the tab content shows "^Documents \(\d+\)$"
+2026-11-04 20:05:46.257 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-39-the-tab-content-shows-Documents-d.png – after "the tab content shows "^Documents \(\d+\)$""
+2026-11-04 20:05:46.257 [INFO]   ✔ STEP OK: the tab content shows "^Documents \(\d+\)$"
+2026-11-04 20:05:46.258 [INFO]   ▷ STEP: I open the "Beneficiaries" tab
+2026-11-04 20:05:48.001 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-40-I-open-the-Beneficiaries-tab.png – after "I open the "Beneficiaries" tab"
+2026-11-04 20:05:48.002 [INFO]   ✔ STEP OK: I open the "Beneficiaries" tab
+2026-11-04 20:05:48.003 [INFO]   ▷ STEP: the tab content shows "^Payees \(\d+\)$"
+2026-11-04 20:05:48.150 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-41-the-tab-content-shows-Payees-d.png – after "the tab content shows "^Payees \(\d+\)$""
+2026-11-04 20:05:48.151 [INFO]   ✔ STEP OK: the tab content shows "^Payees \(\d+\)$"
+2026-11-04 20:05:48.152 [INFO]   ▷ STEP: I open the "Statements" tab
+2026-11-04 20:05:49.520 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-42-I-open-the-Statements-tab.png – after "I open the "Statements" tab"
+2026-11-04 20:05:49.520 [INFO]   ✔ STEP OK: I open the "Statements" tab
+2026-11-04 20:05:49.521 [INFO]   ▷ STEP: the tab content shows "^Select Account$"
+2026-11-04 20:05:49.712 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-43-the-tab-content-shows-Select-Account.png – after "the tab content shows "^Select Account$""
+2026-11-04 20:05:49.712 [INFO]   ✔ STEP OK: the tab content shows "^Select Account$"
+2026-11-04 20:05:49.712 [INFO]   ▷ STEP: I open the "Devices" tab
+2026-11-04 20:05:50.050 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-44-I-open-the-Devices-tab.png – after "I open the "Devices" tab"
+2026-11-04 20:05:50.050 [INFO]   ✔ STEP OK: I open the "Devices" tab
+2026-11-04 20:05:50.051 [INFO]   ▷ STEP: the tab content shows "^deviceId$"
+2026-11-04 20:05:57.909 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-45-the-tab-content-shows-deviceId.png – after "the tab content shows "^deviceId$""
+2026-11-04 20:05:57.910 [INFO]   ✔ STEP OK: the tab content shows "^deviceId$"
+2026-11-04 20:05:57.911 [INFO]   ▷ STEP: I open the "Orders" tab
+2026-11-04 20:05:58.387 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-46-I-open-the-Orders-tab.png – after "I open the "Orders" tab"
+2026-11-04 20:05:58.387 [INFO]   ✔ STEP OK: I open the "Orders" tab
+2026-11-04 20:05:58.387 [INFO]   ▷ STEP: the tab content shows "^Customer Onboarding$"
+2026-11-04 20:06:06.760 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-47-the-tab-content-shows-Customer-Onboarding.png – after "the tab content shows "^Customer Onboarding$""
+2026-11-04 20:06:06.761 [INFO]   ✔ STEP OK: the tab content shows "^Customer Onboarding$"
+2026-11-04 20:06:06.761 [INFO]   ▷ STEP: I open the "Applications" tab
+2026-11-04 20:06:08.172 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-48-I-open-the-Applications-tab.png – after "I open the "Applications" tab"
+2026-11-04 20:06:08.172 [INFO]   ✔ STEP OK: I open the "Applications" tab
+2026-11-04 20:06:08.173 [INFO]   ▷ STEP: the tab content shows "^Applications \(\d+\)$"
+2026-11-04 20:06:08.340 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-49-the-tab-content-shows-Applications-d.png – after "the tab content shows "^Applications \(\d+\)$""
+2026-11-04 20:06:08.341 [INFO]   ✔ STEP OK: the tab content shows "^Applications \(\d+\)$"
+2026-11-04 20:06:08.341 [INFO]   ▷ STEP: I open the "Engagement Interactions" tab
+2026-11-04 20:06:08.821 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-50-I-open-the-Engagement-Interactions-tab.png – after "I open the "Engagement Interactions" tab"
+2026-11-04 20:06:08.821 [INFO]   ✔ STEP OK: I open the "Engagement Interactions" tab
+2026-11-04 20:06:08.822 [INFO]   ▷ STEP: I open the "Customer Markers" tab
+2026-11-04 20:06:09.280 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-51-I-open-the-Customer-Markers-tab.png – after "I open the "Customer Markers" tab"
+2026-11-04 20:06:09.280 [INFO]   ✔ STEP OK: I open the "Customer Markers" tab
+2026-11-04 20:06:09.281 [INFO]   ▷ STEP: the tab content shows "^Custom Markers \(\d+\)$"
+2026-11-04 20:06:11.938 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-52-the-tab-content-shows-Custom-Markers-d.png – after "the tab content shows "^Custom Markers \(\d+\)$""
+2026-11-04 20:06:11.938 [INFO]   ✔ STEP OK: the tab content shows "^Custom Markers \(\d+\)$"
+2026-11-04 20:06:11.939 [INFO]   ▷ STEP: I open the "Details" tab
+2026-11-04 20:06:12.380 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-53-I-open-the-Details-tab.png – after "I open the "Details" tab"
+2026-11-04 20:06:12.380 [INFO]   ✔ STEP OK: I open the "Details" tab
+2026-11-04 20:06:12.381 [INFO]   ▷ STEP: the customer header shows the mobile number and status of "customerByMobile"
+2026-11-04 20:06:12.546 [INFO]   📸 Screenshot: reports/2026-11-04_20-04-18/screenshots/SC-C360.E2E-An-agent-finds-a-customer-and-explores-every-tab-54-the-customer-header-shows-the-mobile-number-and-status-of-cu.png – after "the customer header shows the mobile number and status of "customerByMobile""
+2026-11-04 20:06:12.546 [INFO]   ✔ STEP OK: the customer header shows the mobile number and status of "customerByMobile"
+2026-11-04 20:06:12.638 [INFO] ✔ SCENARIO PASSED: "SC-C360.E2E An agent finds a customer and explores every tab and section of the profile"
+2026-11-04 20:06:13.032 [INFO] RUN FINISHED: PASSED · 1 passed, 0 failed, 0 skipped, 0 flaky · pass rate 100% · 114.2s
