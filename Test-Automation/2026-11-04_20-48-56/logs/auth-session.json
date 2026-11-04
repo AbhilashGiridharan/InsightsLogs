@@ -1,0 +1,60 @@
+{
+  "environment": "INT",
+  "baseUrl": "https://ombank--intx.sandbox.lightning.force.com",
+  "status": "VALID",
+  "valid": true,
+  "checkedAt": "2026-11-04T15:18:57.164Z",
+  "info": {
+    "createdAt": "2026-11-04T14:30:01.499Z",
+    "expiresAt": "2026-11-04T16:30:01.499Z",
+    "expiresAtSource": "org session timeout of 120 min (SF_SESSION_TIMEOUT_MINUTES) from login",
+    "orgHost": "ombank--intx.sandbox.lightning.force.com",
+    "authMode": "sso",
+    "sessionTimeoutMinutes": 120,
+    "authCookies": [
+      {
+        "name": "sid",
+        "domain": "ombank--intx.sandbox.my.salesforce.com",
+        "expiresAt": "browser session"
+      },
+      {
+        "name": "sid_Client",
+        "domain": "ombank--intx.sandbox.my.salesforce.com",
+        "expiresAt": "browser session"
+      },
+      {
+        "name": "oid",
+        "domain": "ombank--intx.sandbox.my.salesforce.com",
+        "expiresAt": "2027-11-04T14:29:48.881Z"
+      },
+      {
+        "name": "sid",
+        "domain": "ombank--intx.sandbox.file.force.com",
+        "expiresAt": "browser session"
+      },
+      {
+        "name": "sid_Client",
+        "domain": "ombank--intx.sandbox.file.force.com",
+        "expiresAt": "browser session"
+      },
+      {
+        "name": "inst",
+        "domain": ".force.com",
+        "expiresAt": "browser session"
+      },
+      {
+        "name": "sid",
+        "domain": "ombank--intx.sandbox.lightning.force.com",
+        "expiresAt": "browser session"
+      },
+      {
+        "name": "sid_Client",
+        "domain": "ombank--intx.sandbox.lightning.force.com",
+        "expiresAt": "browser session"
+      }
+    ],
+    "cookieCount": 51
+  },
+  "remainingMinutes": 71,
+  "reason": "valid until 2026-11-04T16:30:01.499Z (71 min left, org session timeout of 120 min (SF_SESSION_TIMEOUT_MINUTES) from login)."
+}
